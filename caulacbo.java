@@ -24,7 +24,7 @@ public class caulacbo {
         }
     }
     public void setTenCLB(String tenCLB){
-        String regex = "Cau lac bo([A-Z]|[a-z]){0,256}";
+        String regex = "Cau lac bo ([A-Z]|[a-z]|\s){0,256}";
         if(tenCLB.matches(regex)){
             this.tenCLB = tenCLB;
         }
@@ -52,7 +52,7 @@ public class caulacbo {
         System.out.println("Moi nhap ma CLB (CLB + chu de clb vi du: CLBToanHoc): ");
         maCLB = in.nextLine();
         setMaCLB(maCLB);
-        System.out.print("Moi nhap ten cau lac bo: ");
+        System.out.print("Moi nhap ten cau lac bo (vi du: Cau lac bo toan hoc): ");
         tenCLB = in.nextLine();
         setTenCLB(tenCLB);;
         System.out.println("Moi nhap cong viec cua cau lac bo: ");
@@ -66,7 +66,7 @@ public class caulacbo {
         System.out.printf("Thong tin cau lac bo: %s",toString());
     }
     public static void main(String args[]){
-        caulacbo a = new caulacbo("toanhoc", "cau lac bo toan hoc", "nghien cuu de tai toan hoc");
+        caulacbo a = new CLBamnhac( "CLBtoanhoc","Cau lac bo toan hoc", "");
         a.xuat();
     }
 }

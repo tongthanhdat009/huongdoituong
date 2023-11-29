@@ -1,21 +1,15 @@
 public class CLBtoanhoc extends caulacbo {
-    public String tenCLB;
-    public String maCLB;
-    public String congviec="Nghien cuu de tai toan hoc";
     public CLBtoanhoc(){
-        this.tenCLB = "";
-        this.maCLB = "";
-        this.congviec = "";
+        super();
+        setCongViec("Nghien cuu de tai toan hoc");
     }
-    public CLBtoanhoc(String tenCLB, String maCLB, String congviec){
+    public CLBtoanhoc(String maCLB, String tenCLB, String congviec){
         super.setTenCLB(tenCLB);
-        super.setCongViec(congviec);
+        super.setCongViec("Nghien cuu de tai toan hoc");
         super.setMaCLB(maCLB);
     }
     @Override
-    public String getCongViec(){
-        super.getCongViec();
-        return this.congviec;
+    public String toString() {
+        return "maCLB: " + getMaCLB() + ", tenCLB: " + getTenCLB() + ", congviec: " + getCongViec();
     }
-    
 }
