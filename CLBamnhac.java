@@ -1,15 +1,12 @@
 public class CLBamnhac extends caulacbo {
     public CLBamnhac(){
-        super();
-        setCongViec("Giao luu, tham gia van nghe khoa hoc");
+        super.setMaCLB("CLBamnhac");
+        super.setTenCLB("Cau lac bo am nhac");
+        super.setCongViec("Dien van nghe o truong");
     }
-    public CLBamnhac(String maCLB, String tenCLB, String congviec){
-        super.setTenCLB(tenCLB);
-        super.setCongViec("Giao luu, tham gia van nghe khoa hoc");
-        super.setMaCLB(maCLB);
-    }
+
     @Override
     public String toString() {
-        return "maCLB: " + getMaCLB() + ", tenCLB: " + getTenCLB() + ", congviec: " + getCongViec();
+        return "maCLB: " + super.getMaCLB() + ", tenCLB: " + super.getTenCLB() + ", congviec: " + super.getCongViec();
     }
 }

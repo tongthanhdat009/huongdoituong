@@ -24,7 +24,7 @@ public class caulacbo {
         }
     }
     public void setTenCLB(String tenCLB){
-        String regex = "Cau lac bo ([A-Z]|[a-z]|\s){0,256}";
+        String regex = "([A-Z]|[a-z]|\s){0,256}";
         if(tenCLB.matches(regex)){
             this.tenCLB = tenCLB;
         }
@@ -66,8 +66,6 @@ public class caulacbo {
         System.out.printf("Thong tin cau lac bo: %s",toString());
     }
     public static void main(String args[]){
-        caulacbo a = new CLBamnhac( "CLBtoanhoc","Cau lac bo toan hoc", "");
-        a.xuat();
     }
 }
 
