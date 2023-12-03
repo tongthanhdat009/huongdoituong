@@ -3,11 +3,11 @@ import java.util.*;
 public abstract class nguoi {
     public String hoten; // họ tên
     public String gioitinh; // giới tính
-    private int ngaysinh; // ngày sinh
-    private int thangsinh; // tháng sinh
-    private int namsinh; // năm sinh
-    private String diachi; //địa chỉ
-    private String socccd; // căn cước công dân
+    public int ngaysinh; // ngày sinh
+    public int thangsinh; // tháng sinh
+    public int namsinh; // năm sinh
+    public String diachi; //địa chỉ
+    public String socccd; // căn cước công dân
     Scanner in = new Scanner(System.in);
     //hàm thiết lập
     public nguoi(){
