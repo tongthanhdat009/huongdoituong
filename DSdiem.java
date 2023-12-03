@@ -215,7 +215,7 @@ public class DSdiem {
                     System.out.println("Khong hop le. Vui long nhap lai.");
                     break;
             }
-        } while (option != 5);
+        } while (option != 6);
     }
 
 }
