@@ -1,6 +1,7 @@
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -468,12 +469,16 @@ public void findstudent() {
 //}
 @Override
 public void docFile() {
+	
 	FileInputStream fis =null;
 	InputStreamReader reader = null;
 	
 	BufferedReader bufferedReader =null;
 	try {
-	fis = new FileInputStream("C:\\Users\\CUONG\\eclipse-workspace\\student\\src\\doan\\data.txt");
+		String currentDirectory = System.getProperty("user.dir");
+            // Tạo đường dẫn tương đối của file
+            String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dshocsinh_in.txt";
+	fis = new FileInputStream(filePath);
 	reader = new InputStreamReader(fis, StandardCharsets.UTF_8);
 	
 	bufferedReader = new BufferedReader(reader);
@@ -532,12 +537,15 @@ public void docFile() {
 @Override
 public void ghiFile(){
 	
-	
+		
 	System.out.println("bat dau luu");
 	FileOutputStream fos = null;
 	
 	 try {
-		 fos = new FileOutputStream("C:\\Users\\CUONG\\eclipse-workspace\\student\\src\\doan\\data.txt",true);
+		String currentDirectory = System.getProperty("user.dir");
+            // Tạo đường dẫn tương đối của file
+            String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dshocsinh_out.txt";
+		 fos = new FileOutputStream(filePath,true);
 		 for(danhsachhocsinh ds :danhsachhocsinh) {
 			 String line =ds.getFileline();
 			 byte[] b= line.getBytes("utf8");
