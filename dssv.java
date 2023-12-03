@@ -477,7 +477,7 @@ public void docFile() {
 	try {
 		String currentDirectory = System.getProperty("user.dir");
             // Tạo đường dẫn tương đối của file
-            String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dshocsinh_in.txt";
+            String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dshocsinh_out.txt";
 	fis = new FileInputStream(filePath);
 	reader = new InputStreamReader(fis, StandardCharsets.UTF_8);
 	
