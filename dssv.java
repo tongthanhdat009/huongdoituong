@@ -1,4 +1,4 @@
-package doan;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
@@ -467,7 +467,7 @@ public void findstudent() {
 //	}
 //}
 @Override
-public void readFile() {
+public void docFile() {
 	FileInputStream fis =null;
 	InputStreamReader reader = null;
 	
@@ -490,10 +490,10 @@ public void readFile() {
 		
 	}
 	}catch(FileNotFoundException ex) {
-		 Logger.getLogger(Ifile.class.getName()).log(Level.SEVERE, null, ex);
+		 Logger.getLogger(file.class.getName()).log(Level.SEVERE, null, ex);
 	} catch (IOException ex) {
 		// TODO Auto-generated catch block
-		 Logger.getLogger(Ifile.class.getName()).log(Level.SEVERE, null, ex);
+		 Logger.getLogger(file.class.getName()).log(Level.SEVERE, null, ex);
 
 	}finally{
 		if(fis != null) {
@@ -501,7 +501,7 @@ public void readFile() {
 				fis.close();
 			} catch (IOException ex) {
 				// TODO Auto-generated catch block
-				Logger.getLogger(Ifile.class.getName()).log(Level.SEVERE, null, ex);
+				Logger.getLogger(file.class.getName()).log(Level.SEVERE, null, ex);
 			}
 		}
 		if (reader != null) {
@@ -509,7 +509,7 @@ public void readFile() {
 				reader.close();
 			} catch (IOException ex) {
 				// TODO Auto-generated catch block
-				Logger.getLogger(Ifile.class.getName()).log(Level.SEVERE, null, ex);
+				Logger.getLogger(file.class.getName()).log(Level.SEVERE, null, ex);
 		}
 			
 		}
@@ -518,7 +518,7 @@ public void readFile() {
 				bufferedReader.close();
 			} catch (IOException ex) {
 				// TODO Auto-generated catch block
-				Logger.getLogger(Ifile.class.getName()).log(Level.SEVERE, null, ex);
+				Logger.getLogger(file.class.getName()).log(Level.SEVERE, null, ex);
 			}
 		}
 	}
@@ -530,7 +530,7 @@ public void readFile() {
 
 
 @Override
-public void writeFile(){
+public void ghiFile(){
 	
 	
 	System.out.println("bat dau luu");
@@ -546,20 +546,20 @@ public void writeFile(){
 		 }
          // Ghi  Object là đối tượng x xuống file
      } catch (FileNotFoundException ex) {
-         Logger.getLogger(Ifile.class.getName()).log(Level.SEVERE, null, ex);
+         Logger.getLogger(file.class.getName()).log(Level.SEVERE, null, ex);
      } catch (UnsupportedEncodingException ex) {
 		// TODO Auto-generated catch block
-    	  Logger.getLogger(Ifile.class.getName()).log(Level.SEVERE, null, ex);
+    	  Logger.getLogger(file.class.getName()).log(Level.SEVERE, null, ex);
 	} catch (IOException ex) {
 		// TODO Auto-generated catch block
-		  Logger.getLogger(Ifile.class.getName()).log(Level.SEVERE, null, ex);
+		  Logger.getLogger(file.class.getName()).log(Level.SEVERE, null, ex);
 	}finally {
 		if(fos != null) {
 			try {
 				fos.close();
 				
 			}catch(IOException ex) {
-				 Logger.getLogger(Ifile.class.getName()).log(Level.SEVERE, null, ex);
+				 Logger.getLogger(file.class.getName()).log(Level.SEVERE, null, ex);
 			}
 		}
 	}

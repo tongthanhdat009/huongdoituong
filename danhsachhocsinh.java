@@ -1,4 +1,4 @@
-package doan;
+
 import java.util.Scanner;
 
 public class danhsachhocsinh extends nguoi {
