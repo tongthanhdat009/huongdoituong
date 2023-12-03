@@ -4,13 +4,13 @@ import java.util.ArrayList;
 public class DSdiem {
 
     private ArrayList<diem> dsdiem;
+    Scanner sc = new Scanner(System.in);
 
     public DSdiem() {
         dsdiem = new ArrayList<diem>();
     }
 
     public void nhapDS() {
-        Scanner sc = new Scanner(System.in);
         System.out.println("Nhap so luong hoc sinh: ");
         int soluong = sc.nextInt();
         for (int i = 0; i < soluong; i++) {
