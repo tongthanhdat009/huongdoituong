@@ -1,23 +1,25 @@
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 public class lop{
     Scanner sc=new Scanner(System.in);
     public String maLop;
 	public int siSo;
     public phongHoc phong;
-    public giaovien gvcn;
-    public lop(String maLop, int siSo, String maPhong, int soGhe, int soBan, String sdt, String hoten, String gioitinh,int ngaysinh, int thangsinh, int namsinh, String diachi, String std, String socccd)
+    public int maGVCN;
+    public lop(String maLop, int siSo, int soGhe, int soBan, int maGVCN)
     {
         this.maLop=maLop;
         this.siSo=siSo;
-        this.phong=new phongHoc(maPhong, soGhe, soBan);
-        this.gvcn =new giaovien(hoten,gioitinh,ngaysinh,thangsinh,namsinh,diachi,socccd,sdt);
+        this.maGVCN = maGVCN;
+        this.phong=new phongHoc(soGhe, soBan);
     }
     public lop()
     {
         maLop="";
         siSo=0;
+        maGVCN = 0;
         phong=new phongHoc();
-        gvcn=new giaovien();
     }
     public String getMaLop() {
         return maLop;
@@ -28,11 +30,20 @@ public class lop{
     public int getSiSo() {
         return siSo;
     }
-    public giaovien getGVCN() {
-        return gvcn;
+    public int getMaGVCN()
+    {
+        return maGVCN;
     }
-    public void setMaLop(String maLop) {
-        this.maLop = maLop;
+    public void setMaGVCN(int maGVCN)
+    {
+        this.maGVCN = maGVCN;
+    }
+    public void setMaLop(String ma) {
+        String check = "^[10-12]{2}[A-D]{1}$";
+        Pattern pattern = Pattern.compile(check);
+        Matcher matcher = pattern.matcher(ma);
+        if(!matcher.matches()) System.out.print("Sai định dạng mã lớp");
+        else this.maLop = ma;
     }
     public void setSiSo(int siSo) {
         this.siSo = siSo;
@@ -40,20 +51,31 @@ public class lop{
     public void setPhong(phongHoc phong) {
         this.phong = phong;
     }
-    public void setGVCN(giaovien gvcn) {
-        this.gvcn = gvcn;
-    }
     public void nhap()
     {
+        String ma;
         System.out.print("Nhap ma lop: ");
-        maLop = sc.nextLine();
-        System.out.print("Nhap si so: ");
-        siSo = sc.nextInt();
-        phong.nhap();
-        gvcn.nhap();
+        ma = sc.nextLine(); 
+        setMaLop(ma);
+        if(maLop != "")
+        {
+            System.out.print("Nhap si so: ");
+            siSo = sc.nextInt();
+            System.out.print("Nhap ma GVCN: ");
+            maGVCN = sc.nextInt();
+            phong.nhap();
+        }
+    }
+    public void xuat()
+    {
+        System.out.print("Ma lop: "+maLop+" ");
+        System.out.print("Si so: "+siSo+" ");
+        System.out.print("Ma GVCN: "+maGVCN+" ");
+        phong.xuat();
+        System.out.print("\n");
     }
     public String toString()
     {
-        return "Ma lop: "+maLop+", si so: "+siSo+", "+phong.toString()+", "+gvcn.toString();
+        return maLop+"\t\t"+siSo+"\t\t"+maGVCN+"\t\t"+phong.toString();
     }
 }
