@@ -1,0 +1,8 @@
+DANH SACH CAU LAC BO: 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Dinh dang: STT		Ma CLB, Ten CLB, Cong viec
+1, CLBamnhac, Cau lac bo am nhac, Dien van nghe o truong
+2, CLBtoanhoc, Cau lac bo toan hoc, Nghien cuu de tai toan hoc
+3, CLBkhoahoc, Cau lac bo khoa hoc, Nghien cuu de tai khoa hoc tai truong
+4, CLBEsports, Cau lac bo the thao dien tu, Choi game va lam giai
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

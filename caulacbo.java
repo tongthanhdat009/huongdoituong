@@ -60,7 +60,7 @@ public class caulacbo {
         setCongViec(congviec);
     }
     public String toString() {
-        return "maCLB: " + this.maCLB + ", tenCLB: " + this.tenCLB + ", congviec: " + this.congviec;
+        return this.maCLB + ", " + this.tenCLB + ", " + this.congviec;
     }
     public void xuat(){
         System.out.printf("Thong tin cau lac bo: %s",toString());

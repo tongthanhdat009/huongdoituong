@@ -7,6 +7,6 @@ public class CLBtoanhoc extends caulacbo {
 
     @Override
     public String toString() {
-        return "maCLB: " + super.getMaCLB() + ", tenCLB: " + super.getTenCLB() + ", congviec: " + super.getCongViec();
+        return super.getMaCLB() + ", " + super.getTenCLB() + ", " + super.getCongViec();
     }
 }
