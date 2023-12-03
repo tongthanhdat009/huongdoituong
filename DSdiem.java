@@ -206,10 +206,11 @@ public class DSdiem {
                     timKiemDiem();
                     break;
                 case 5:
-                    System.out.println("Tam biet!");
+                    xuatDS();
                     break;
                 case 6:
-                    xuatDS();
+                    System.out.println("Tam biet!");
+                    break;
                 default:
                     System.out.println("Khong hop le. Vui long nhap lai.");
                     break;
