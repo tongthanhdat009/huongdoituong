@@ -35,7 +35,7 @@ public class main {
                                 System.out.println("Lua chon khong hop le vui long chon lai");
                                 break;
                         }
-                    }while(luachon1 > 6 || luachon1 <=0);
+                    }while(luachon1>6);
     }
     public static void main(String[] args){
         dscaulacbo dsCLB = new dscaulacbo();
