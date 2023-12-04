@@ -1,20 +1,22 @@
-1,Học Sinh A, nam, 1/1/2004, tphcm, 0923564, 123, tot, 10A
-2,Học Sinh B, nam, 2/1/2004, tphcm, 0923563, 123, tot, 10A
-3,Học Sinh C, nam, 3/1/2004, tphcm, 0923564, 123, tot, 10B
-4,Học Sinh D, nam, 4/1/2004, tphcm, 0923563, 123, tot, 10B
-5,Học Sinh E, nam, 5/1/2004, tphcm, 0923564, 123, tot, 10C
-6,Học Sinh F, nam, 6/1/2004, tphcm, 0923563, 123, tot, 10C
-7,Học Sinh G, nam, 7/1/2004, tphcm, 0923564, 123, tot, 10D
-8,Học Sinh H, nam, 8/1/2004, tphcm, 0923563, 123, tot, 10D
-9,Học Sinh I, nam, 9/1/2004, tphcm, 0923564, 123, tot, 11A
-10,Học Sinh J, nam, 10/1/2004, tphcm, 0923563, 123, tot, 11A
-11,Học Sinh K, nam, 11/1/2004, tphcm, 0923564, 123, tot, 11B
-12,Học Sinh L, nam, 12/1/2004, tphcm, 0923563, 123, tot, 11B
-13,Học Sinh M, nam, 13/1/2004, tphcm, 0923564, 123, tot, 11C
-14,Học Sinh N, nam, 14/1/2004, tphcm, 0923563, 123, tot, 11C
-15,Học Sinh O, nam, 15/1/2004, tphcm, 0923564, 123, tot, 11D
-16,Học Sinh P, nam, 16/1/2004, tphcm, 0923563, 123, tot, 11D
-17,Học Sinh Q, nam, 17/1/2004, tphcm, 0923564, 123, tot, 12A
-18,Học Sinh R, nam, 18/1/2004, tphcm, 0923563, 123, tot, 12A
-19,Học Sinh S, nam, 19/1/2004, tphcm, 0923564, 123, tot, 12B
-20,Học Sinh T, nam, 20/1/2004, tphcm, 0923563, 123, tot, 12B
+1,Học Sinh A,nam,1,1,2004,tphcm,0923564,123,tot,10A
+2,Học Sinh B,nam,2,1,2004,tphcm,0923563,123,tot,10A
+3,Học Sinh C,nam,3,1,2004,tphcm,0923564,123,tot,10B
+4,Học Sinh D,nam,4,1,2004,tphcm,0923563,123,tot,10B
+5,Học Sinh E,nam,5,1,2004,tphcm,0923564,123,tot,10C
+6,Học Sinh F,nam,6,1,2004,tphcm,0923563,123,tot,10C
+7,Học Sinh G,nam,7,1,2004,tphcm,0923564,123,tot,10A
+8,Học Sinh H,nam,8,1,2004,tphcm,0923563,123,tot,10C
+9,Học Sinh I,nam,9,1,2004,tphcm,0923564,123,tot,11A
+10,Học Sinh J,nam,10,1,2004,tphcm,0923563,123,tot,11A
+11,Học Sinh K,nam,11,1,2004,tphcm,0923564,123,tot,11B
+12,Học Sinh L,nam,12,1,2004,tphcm,0923563,123,tot,11B
+13,Học Sinh M,nam,13,1,2004,tphcm,0923564,123,tot,11C
+14,Học Sinh N,nam,14,1,2004,tphcm,0923563,123,tot,11C
+15,Học Sinh O,nam,15,1,2004,tphcm,0923564,123,tot,11C
+16,Học Sinh P,nam,16,1,2004,tphcm,0923563,123,tot,11B
+17,Học Sinh Q,nam,17,1,2004,tphcm,0923564,123,tot,12A
+18,Học Sinh R,nam,18,1,2004,tphcm,0923563,123,tot,12A
+19,Học Sinh S,nam,19,1,2004,tphcm,0923564,123,tot,12B
+20,Học Sinh T,nam,20,1,2004,tphcm,0923563,123,tot,12B
+21,Học Sinh S,nam,21,1,2004,tphcm,0923564,123,tot,12C
+22,Học Sinh T,nam,22,1,2004,tphcm,0923563,123,tot,12C

@@ -8,9 +8,6 @@ public class danhsachhocsinh extends nguoi {
 	public String khoahoc;
 	public String sdt;
 	private String hanhkiem;
-
-	private String diachi;
-	
 	
 	public danhsachhocsinh() {
 		khoahoc = "";
@@ -127,7 +124,9 @@ public void xuat() {
 public String getFileline() {
 	return " stt : "+getMa()+","+" Ho va ten :"+ getHoten()+ ","+" Gioi tinh :"+ getGioitinh() + ","+" Ngay sinh :" + getNgaysinh() +","+" Thang sinh :"+ getThangsinh()+","+" Nam sinh :"+ getNamsinh()+ ","+" Dia chi :"+ getDiachi()+","+" So can cuoc cong dan :"+ getCCCD()+","+" So dien thoai :"+ getSdt()+","+" Hanh kiem :"+ getHanhkiem()+","+" Khoa hoc :"+ getKhoahoc()+ "\n";
 }
-
+public String toString2() {
+	return "Ma HS: "+getMa()+"\tHo va ten: "+ getHoten()+"\tKhoa hoc :"+ getKhoahoc()+"\tGioi tinh: "+ getGioitinh() +"\tNgay thang nam sinh: "+ getNgaysinh() +"/"+ getThangsinh()+"/"+getNamsinh()+"\tDia chi: "+ getDiachi()+","+"So can cuoc cong dan: "+ getCCCD()+"\tSo dien thoai: "+ getSdt()+"\tHanh kiem :"+ getHanhkiem();
+}
 public void parse(String line) {
 	String[] param = line.split(",");
 	try {

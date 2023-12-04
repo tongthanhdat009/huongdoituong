@@ -37,23 +37,27 @@ public class dsdaydu {
             String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dsdaydu-out.txt";
             FileWriter fw = new FileWriter(filePath);
             fw.write("DANH SACH HOC SINH, GIAO VIEN THEO LOP: \n");
-            fw.write("MaGV\tSDT\t\t\tHoTen\t\t\tGioiTinh\tNgayThangNamSinh\tDiaChi\tCCCD\n");
             for(lop lop: dsLop)
             {   
-                fw.write(lop.toString()+"\n");
+                fw.write("-------------------------------------------------------------------------------------------------------\n");
+                fw.write(lop.toString2()+"\n");
+                boolean flag = false;
                 for(giaovien giaovien:dsGV)
                 {
-                    boolean flag = false;
                     if(giaovien.getMagv() == lop.getMaGVCN()) 
                     {
-                        fw.write(giaovien.toString());
+                        fw.write("Thong tin giao vien chu nhiem\n");
+                        fw.write(giaovien.toString2()+"\n");
                         flag = true;
+                        break;
                     }
-                    if(flag == false) fw.write("Khong co thong tin giao vien chu nhiem\n");
                 }
+                if(flag == false) fw.write("Khong co thong tin giao vien chu nhiem\n");
+                fw.write("Thong tin hoc sinh trong lop\n");
                 for(danhsachhocsinh hocsinh: dsHS)
-                if(lop.maLop.equals(hocsinh.khoahoc)) fw.write(hocsinh.getFileline());
-                fw.write("-------------------------------------------------------------------------------------------------------");
+                {  
+                    if(lop.maLop.equals(hocsinh.khoahoc)) fw.write(hocsinh.toString2()+"\n");
+                }
             }
             fw.close();
             System.out.println("Ghi file thanh cong");

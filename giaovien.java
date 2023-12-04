@@ -78,9 +78,11 @@ public class giaovien extends nguoi{
     }
     public String toString()
     {
-        {
-            return maGV+"\t\t"+sdt+"\t"+hoten+"\t"+gioitinh+"\t\t\t"+ngaysinh+"/"+thangsinh+"/"+namsinh+"\t\t\t"+diachi+"\t"+socccd; 
-        }
+        return maGV+"\t\t"+sdt+"\t"+hoten+"\t"+gioitinh+"\t\t\t"+ngaysinh+"/"+thangsinh+"/"+namsinh+"\t\t\t"+diachi+"\t"+socccd; 
+    }
+    public String toString2()
+    {
+        return "Ma GV: "+maGV+"\tSDT: "+sdt+"\tHo ten: "+hoten+"\tGioi tinh: "+gioitinh+"\tNgay thang nam sinh: "+ngaysinh+"/"+thangsinh+"/"+namsinh+"\tDia chi:"+diachi+"\tCCCD: "+socccd; 
     }
     public static void main(String args[]){
         giaovien[] a=new giaovien[2];          

@@ -74,4 +74,8 @@ public class lop{
     {
         return maLop+"\t\t"+siSo+"\t\t"+maGVCN+"\t\t"+phong.toString();
     }
+    public String toString2()
+    {
+        return "Ma lop: "+maLop+"\t Ma GVCN: "+maGVCN+"\t"+phong.toString2();
+    }
 }
