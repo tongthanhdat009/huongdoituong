@@ -266,7 +266,9 @@ public class main {
                     quanLyGiaoVienCN(dsGVCN);
                     break;
                 case 6:
-                    dsdaydu ds = new dsdaydu(dsGVCN,dsLop,dsHocSinh);
+                    dsdaydu ds = new dsdaydu(dsGVCN.getDs(),dsLop.getds(),dsHocSinh.getDs());
+                    ds.ghiFile();
+                    break;
                 case 0:
                     System.out.println("Chuong trinh hoan thanh");
                 default:

@@ -26,7 +26,10 @@ public class dssv implements file{
 		this.n = n;
 		this.danhsachhocsinh=dssv;
 	}
-	
+	public ArrayList<danhsachhocsinh> getDs()
+	{
+		return this.danhsachhocsinh;
+	}
 	public void nhaphocsinh(){
 		System.out.println("-----------------//-----------------");
 		System.out.println("Nhap so luong hoc sinh can nhap: \n");

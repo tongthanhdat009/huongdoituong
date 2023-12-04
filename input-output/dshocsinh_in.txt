@@ -1,4 +1,4 @@
-1,viet cuong,nam,2,3,2004, tphcm,0923564,123,tot,2019
-2,viet cuong,nam,2,3,2004, tphcm,0923563,123,tot,2020
-3,viet cuong,nam,2,3,2004, tphcm,0923564,123,tot,2021
-4,viet cuong,nam,2,3,2004, tphcm,0923563,123,tot,2022
+1,Hoc Sinh A,nam,1,1,2004, tphcm,0923564,123,tot,2019
+2,Hoc Sinh B,nam,2,1,2004, tphcm,0923563,123,tot,2020
+3,Hoc Sinh C,nam,3,1,2004, tphcm,0923564,123,tot,2021
+4,Hoc Sinh D,nam,4,1,2004, tphcm,0923563,123,tot,2022

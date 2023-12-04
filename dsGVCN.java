@@ -65,6 +65,10 @@ public class dsGVCN implements file
         for(giaovien giaovien:dsGV)
         giaovien.xuat();
     }
+    public ArrayList<giaovien> getDs()
+    {
+        return this.dsGV;
+    }
     @Override
     public void docFile(){
         try {
