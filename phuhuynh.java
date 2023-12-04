@@ -93,6 +93,7 @@ public class phuhuynh extends nguoi {
     }
     public static void main(String args[]){
         phuhuynh a = new phuhuynh("tong thanh dat", "Nam",14,5, 2004, "tphcm", "12121","Anh trai", "0395632027", "Dev lo");
+        a.nhap();
         a.xuat();
     }
 }

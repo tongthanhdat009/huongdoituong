@@ -133,6 +133,8 @@ public class main {
         }while(luachon!=0);
 
     }
+    public static void quanLyGiaoVien(){}
+    public static void quanLyDanhSachDiem(){}
     public static void main(String[] args){
         ArrayList<caulacbo> dsclb = new ArrayList<caulacbo>();
         //tính đa hình của câu lạc bộ

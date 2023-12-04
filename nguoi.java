@@ -86,7 +86,7 @@ public abstract class nguoi {
                 else{
                     if(ngaysinh > 0 && ngaysinh<=28){//kiểm tra ngày
                         this.ngaysinh=ngaysinh;
-                        this.thangsinh = ngaysinh;
+                        this.thangsinh = thangsinh;
                         this.namsinh = namsinh;
                     }
                 }
