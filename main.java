@@ -239,6 +239,9 @@ public class main {
 
         // danh sách giáo viên chủ nhiệm
         dsGVCN dsGVCN = new dsGVCN();
+
+        //danh sách điểm học sinh
+        DSdiem dsDiem = new DSdiem();
         int luachon;
         do{ 
             System.out.println("CHUONG TRINH QUAN LY HOC SINH");
@@ -266,7 +269,7 @@ public class main {
                     quanLyGiaoVienCN(dsGVCN);
                     break;
                 case 5:
-                    // quanLyDanhSachDiem(dsdiem);
+                    quanLyDanhSachDiem(dsDiem);
                 case 6:
                     dsdaydu ds = new dsdaydu(dsGVCN.getDs(),dsLop.getds(),dsHocSinh.getDs());
                     ds.ghiFile();

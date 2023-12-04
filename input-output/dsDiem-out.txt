@@ -1,9 +1,8 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Danh sách điểm của các học sinh: 
 
 Thông tin học sinh thứ 1: 
-Mã học sinh: 123	Năm học: 2023	Học kỳ: 1
+Mã học sinh: 124	Năm học: 2023	Học kỳ: 1
 Điểm trung bình: 7.0	Xếp loại: Kha
 Điểm các môn học: 
 Môn Toan: 5.0
@@ -11,3 +10,534 @@ Môn Anh: 6.0
 Môn Van: 7.0
 Môn Hoa: 8.0
 Môn Ly: 9.0
+
+Thông tin học sinh thứ 2: 
+Mã học sinh: 125	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 7.0
+Môn Anh: 8.0
+Môn Van: 9.0
+Môn Hoa: 5.0
+Môn Ly: 6.0
+
+Thông tin học sinh thứ 3: 
+Mã học sinh: 126	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 8.0
+Môn Anh: 9.0
+Môn Van: 5.0
+Môn Hoa: 6.0
+Môn Ly: 7.0
+
+Thông tin học sinh thứ 4: 
+Mã học sinh: 127	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 9.0
+Môn Anh: 5.0
+Môn Van: 6.0
+Môn Hoa: 7.0
+Môn Ly: 8.0
+
+Thông tin học sinh thứ 5: 
+Mã học sinh: 128	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 5.0
+Môn Anh: 6.0
+Môn Van: 7.0
+Môn Hoa: 8.0
+Môn Ly: 9.0
+
+Thông tin học sinh thứ 6: 
+Mã học sinh: 129	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 6.0
+Môn Anh: 7.0
+Môn Van: 8.0
+Môn Hoa: 9.0
+Môn Ly: 5.0
+
+Thông tin học sinh thứ 7: 
+Mã học sinh: 130	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 7.0
+Môn Anh: 8.0
+Môn Van: 9.0
+Môn Hoa: 5.0
+Môn Ly: 6.0
+
+Thông tin học sinh thứ 8: 
+Mã học sinh: 131	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 8.0
+Môn Anh: 9.0
+Môn Van: 5.0
+Môn Hoa: 6.0
+Môn Ly: 7.0
+
+Thông tin học sinh thứ 9: 
+Mã học sinh: 132	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 9.0
+Môn Anh: 5.0
+Môn Van: 6.0
+Môn Hoa: 7.0
+Môn Ly: 8.0
+
+Thông tin học sinh thứ 10: 
+Mã học sinh: 133	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 5.0
+Môn Anh: 6.0
+Môn Van: 7.0
+Môn Hoa: 8.0
+Môn Ly: 9.0
+
+Thông tin học sinh thứ 11: 
+Mã học sinh: 134	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 6.0
+Môn Anh: 7.0
+Môn Van: 8.0
+Môn Hoa: 9.0
+Môn Ly: 5.0
+
+Thông tin học sinh thứ 12: 
+Mã học sinh: 135	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 7.0
+Môn Anh: 8.0
+Môn Van: 9.0
+Môn Hoa: 5.0
+Môn Ly: 6.0
+
+Thông tin học sinh thứ 13: 
+Mã học sinh: 136	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 8.0
+Môn Anh: 9.0
+Môn Van: 5.0
+Môn Hoa: 6.0
+Môn Ly: 7.0
+
+Thông tin học sinh thứ 14: 
+Mã học sinh: 137	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 9.0
+Môn Anh: 5.0
+Môn Van: 6.0
+Môn Hoa: 7.0
+Môn Ly: 8.0
+
+Thông tin học sinh thứ 15: 
+Mã học sinh: 138	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 5.0
+Môn Anh: 6.0
+Môn Van: 7.0
+Môn Hoa: 8.0
+Môn Ly: 9.0
+
+Thông tin học sinh thứ 16: 
+Mã học sinh: 139	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 6.0
+Môn Anh: 7.0
+Môn Van: 8.0
+Môn Hoa: 9.0
+Môn Ly: 5.0
+
+Thông tin học sinh thứ 17: 
+Mã học sinh: 140	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 7.0
+Môn Anh: 8.0
+Môn Van: 9.0
+Môn Hoa: 5.0
+Môn Ly: 6.0
+
+Thông tin học sinh thứ 18: 
+Mã học sinh: 141	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 8.0
+Môn Anh: 9.0
+Môn Van: 5.0
+Môn Hoa: 6.0
+Môn Ly: 7.0
+
+Thông tin học sinh thứ 19: 
+Mã học sinh: 142	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 9.0
+Môn Anh: 5.0
+Môn Van: 6.0
+Môn Hoa: 7.0
+Môn Ly: 8.0
+
+Thông tin học sinh thứ 20: 
+Mã học sinh: 143	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 5.0
+Môn Anh: 6.0
+Môn Van: 7.0
+Môn Hoa: 8.0
+Môn Ly: 9.0
+
+Thông tin học sinh thứ 21: 
+Mã học sinh: 144	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 6.0
+Môn Anh: 7.0
+Môn Van: 8.0
+Môn Hoa: 9.0
+Môn Ly: 5.0
+
+Thông tin học sinh thứ 22: 
+Mã học sinh: 145	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 7.0
+Môn Anh: 8.0
+Môn Van: 9.0
+Môn Hoa: 5.0
+Môn Ly: 6.0
+
+Thông tin học sinh thứ 23: 
+Mã học sinh: 146	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 8.0
+Môn Anh: 9.0
+Môn Van: 5.0
+Môn Hoa: 6.0
+Môn Ly: 7.0
+
+Thông tin học sinh thứ 24: 
+Mã học sinh: 147	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 9.0
+Môn Anh: 5.0
+Môn Van: 6.0
+Môn Hoa: 7.0
+Môn Ly: 8.0
+
+Thông tin học sinh thứ 25: 
+Mã học sinh: 148	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 5.0
+Môn Anh: 6.0
+Môn Van: 7.0
+Môn Hoa: 8.0
+Môn Ly: 9.0
+
+Thông tin học sinh thứ 26: 
+Mã học sinh: 149	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 6.0
+Môn Anh: 7.0
+Môn Van: 8.0
+Môn Hoa: 9.0
+Môn Ly: 5.0
+
+Thông tin học sinh thứ 27: 
+Mã học sinh: 150	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 7.0
+Môn Anh: 8.0
+Môn Van: 9.0
+Môn Hoa: 5.0
+Môn Ly: 6.0
+
+Thông tin học sinh thứ 28: 
+Mã học sinh: 151	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 8.0
+Môn Anh: 9.0
+Môn Van: 5.0
+Môn Hoa: 6.0
+Môn Ly: 7.0
+
+Thông tin học sinh thứ 29: 
+Mã học sinh: 152	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 9.0
+Môn Anh: 5.0
+Môn Van: 6.0
+Môn Hoa: 7.0
+Môn Ly: 8.0
+
+Thông tin học sinh thứ 30: 
+Mã học sinh: 153	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 5.0
+Môn Anh: 6.0
+Môn Van: 7.0
+Môn Hoa: 8.0
+Môn Ly: 9.0
+
+Thông tin học sinh thứ 31: 
+Mã học sinh: 154	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 6.0
+Môn Anh: 7.0
+Môn Van: 8.0
+Môn Hoa: 9.0
+Môn Ly: 5.0
+
+Thông tin học sinh thứ 32: 
+Mã học sinh: 155	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 7.0
+Môn Anh: 8.0
+Môn Van: 9.0
+Môn Hoa: 5.0
+Môn Ly: 6.0
+
+Thông tin học sinh thứ 33: 
+Mã học sinh: 156	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 8.0
+Môn Anh: 9.0
+Môn Van: 5.0
+Môn Hoa: 6.0
+Môn Ly: 7.0
+
+Thông tin học sinh thứ 34: 
+Mã học sinh: 157	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 9.0
+Môn Anh: 5.0
+Môn Van: 6.0
+Môn Hoa: 7.0
+Môn Ly: 8.0
+
+Thông tin học sinh thứ 35: 
+Mã học sinh: 158	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 5.0
+Môn Anh: 6.0
+Môn Van: 7.0
+Môn Hoa: 8.0
+Môn Ly: 9.0
+
+Thông tin học sinh thứ 36: 
+Mã học sinh: 159	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 6.0
+Môn Anh: 7.0
+Môn Van: 8.0
+Môn Hoa: 9.0
+Môn Ly: 5.0
+
+Thông tin học sinh thứ 37: 
+Mã học sinh: 160	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 7.0
+Môn Anh: 8.0
+Môn Van: 9.0
+Môn Hoa: 5.0
+Môn Ly: 6.0
+
+Thông tin học sinh thứ 38: 
+Mã học sinh: 161	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 8.0
+Môn Anh: 9.0
+Môn Van: 5.0
+Môn Hoa: 6.0
+Môn Ly: 7.0
+
+Thông tin học sinh thứ 39: 
+Mã học sinh: 162	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 9.0
+Môn Anh: 5.0
+Môn Van: 6.0
+Môn Hoa: 7.0
+Môn Ly: 8.0
+
+Thông tin học sinh thứ 40: 
+Mã học sinh: 163	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 5.0
+Môn Anh: 6.0
+Môn Van: 7.0
+Môn Hoa: 8.0
+Môn Ly: 9.0
+
+Thông tin học sinh thứ 41: 
+Mã học sinh: 164	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 6.0
+Môn Anh: 7.0
+Môn Van: 8.0
+Môn Hoa: 9.0
+Môn Ly: 5.0
+
+Thông tin học sinh thứ 42: 
+Mã học sinh: 165	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 7.0
+Môn Anh: 8.0
+Môn Van: 9.0
+Môn Hoa: 5.0
+Môn Ly: 6.0
+
+Thông tin học sinh thứ 43: 
+Mã học sinh: 166	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 8.0
+Môn Anh: 9.0
+Môn Van: 5.0
+Môn Hoa: 6.0
+Môn Ly: 7.0
+
+Thông tin học sinh thứ 44: 
+Mã học sinh---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+: 167	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 9.0
+Môn Anh: 5.0
+Môn Van: 6.0
+Môn Hoa: 7.0
+Môn Ly: 8.0
+
+Thông tin học sinh thứ 45: 
+Mã học sinh: 168	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 5.0
+Môn Anh: 6.0
+Môn Van: 7.0
+Môn Hoa: 8.0
+Môn Ly: 9.0
+
+Thông tin học sinh thứ 46: 
+Mã học sinh: 169	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 6.0
+Môn Anh: 7.0
+Môn Van: 8.0
+Môn Hoa: 9.0
+Môn Ly: 5.0
+
+Thông tin học sinh thứ 47: 
+Mã học sinh: 170	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 7.0
+Môn Anh: 8.0
+Môn Van: 9.0
+Môn Hoa: 5.0
+Môn Ly: 6.0
+
+Thông tin học sinh thứ 48: 
+Mã học sinh: 171	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 8.0
+Môn Anh: 9.0
+Môn Van: 5.0
+Môn Hoa: 6.0
+Môn Ly: 7.0
+
+Thông tin học sinh thứ 49: 
+Mã học sinh: 172	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 9.0
+Môn Anh: 5.0
+Môn Van: 6.0
+Môn Hoa: 7.0
+Môn Ly: 8.0
+
+Thông tin học sinh thứ 50: 
+Mã học sinh: 173	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 5.0
+Môn Anh: 6.0
+Môn Van: 7.0
+Môn Hoa: 8.0
+Môn Ly: 9.0
+
+Thông tin học sinh thứ 51: 
+Mã học sinh: 174	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 6.0
+Môn Anh: 7.0
+Môn Van: 8.0
+Môn Hoa: 9.0
+Môn Ly: 5.0
+
+Thông tin học sinh thứ 52: 
+Mã học sinh: 175	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 7.0
+Môn Anh: 8.0
+Môn Van: 9.0
+Môn Hoa: 5.0
+Môn Ly: 6.0
+
+Thông tin học sinh thứ 53: 
+Mã học sinh: 176	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 8.0
+Môn Anh: 9.0
+Môn Van: 5.0
+Môn Hoa: 6.0
+Môn Ly: 7.0
+
+Thông tin học sinh thứ 54: 
+Mã học sinh: 177	Năm học: 2023	Học kỳ: 1
+Điểm trung bình: 7.0	Xếp loại: Kha
+Điểm các môn học: 
+Môn Toan: 9.0
+Môn Anh: 5.0
+Môn Van: 6.0
+Môn Hoa: 7.0
+Môn Ly: 8.0
