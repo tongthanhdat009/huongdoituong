@@ -11,3 +11,4 @@
  stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :so can cuoc cong dan khong hop le, So dien thoai :123, Hanh kiem :tot, Khoa hoc :2019
  stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :123456789123, So dien thoai :1234, Hanh kiem :tot, Khoa hoc :2019
  stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :123456789012, So dien thoai :123, Hanh kiem :tot, Khoa hoc :2021
+ stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :123456789012, So dien thoai :1234, Hanh kiem :tot, Khoa hoc :2022

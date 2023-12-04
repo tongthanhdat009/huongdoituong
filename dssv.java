@@ -417,12 +417,9 @@ public void findstudent() {
 		{
 			System.out.println("Tim hoc sinh thanh cong!");
 			hs.xuat();
-		}
-		else {
-			System.out.println("Ma so hoc sinh khong hop le!");
-		}
-		
+		}	
 	}
+
 	System.out.println("Nhap 1 de thuc hien lai hoac nhap 0 de ket thuc.");
 	luachon= input.nextInt();
 		}
