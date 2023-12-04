@@ -64,7 +64,13 @@ public class danhsachhocsinh extends nguoi {
 		return sdt;
 	}
 	public void setSdt(String sdt) {
-		this.sdt = sdt;
+		if(sdt.matches("[0-9]{10}$")){
+           this.sdt = sdt;
+        }
+		else{
+			System.out.println("Số điện thoại không hợp lệ !!");
+		}
+		
 	}
 	
 @Override	
@@ -114,7 +120,7 @@ public void nhap() {
 }
 @Override
 public void xuat() {
-	System.out.printf("Thong Tin Học sinh:\n\tHo và ten học sinh: %s\n\tGioi tinh: %s\n\tNgay-thang-nam sinh: %d-%d-%d\n\tdia chi: %s\n\tSo can cuoc cong dan: %s\n\t ma so: %d\n\t so dien thoai: %s\n\thanh kiem %s\n\tkhoa hoc %s\n\t",
+	System.out.printf("Thong Tin Hoc sinh:\n\tHo và ten học sinh: %s\n\tGioi tinh: %s\n\tNgay-thang-nam sinh: %d-%d-%d\n\tdia chi: %s\n\tSo can cuoc cong dan: %s\n\t ma so: %d\n\t so dien thoai: %s\n\thanh kiem %s\n\tkhoa hoc %s\n\t",
 			getHoten(), getGioitinh(), getNgaysinh(), getThangsinh(), getNamsinh(), getDiachi(), getCCCD(), getMa(),getSdt(),getHanhkiem(),getKhoahoc());
 }
 

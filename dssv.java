@@ -395,10 +395,11 @@ public void update() {
 		else {
 			System.out.println("Ma sinh vien khong hop le!");
 		}
-		System.out.println("Nhap 1 de thuc hien lai hoac nhap 0 de ket thuc.");
-		luachon= input.nextInt();
+		
 		
 	}
+	System.out.println("Nhap 1 de thuc hien lai hoac nhap 0 de ket thuc.");
+		luachon= input.nextInt();
 		
 	
 	}
