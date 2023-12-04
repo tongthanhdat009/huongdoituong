@@ -26,6 +26,10 @@ public class DSdiem implements file{
             System.out.println("Nhap thong tin cua hoc sinh thu " + (i + 1) + ": ");
             System.out.println("Nhap ma hoc sinh: ");
             int maHS = sc.nextInt();
+            while (trungMaHS(maHS)) {
+                System.out.println("Ma hoc sinh da ton tai. Vui long nhap lai: ");
+                maHS = sc.nextInt();
+            }
             System.out.println("Nhap nam hoc: ");
             int namhoc = sc.nextInt();
             System.out.println("Nhap hoc ky: ");
@@ -72,6 +76,10 @@ public class DSdiem implements file{
         System.out.println("\nNhap thong tin hoc sinh duoc them: ");
         System.out.println("Nhap ma hoc sinh: ");
         int maHS = sc.nextInt();
+        while (trungMaHS(maHS)) {
+            System.out.println("Ma hoc sinh da ton tai. Vui long nhap lai: ");
+            maHS = sc.nextInt();
+        }
         System.out.println("Nhap nam hoc: ");
         int namhoc = sc.nextInt();
         System.out.println("Nhap hoc ky: ");
@@ -179,30 +187,6 @@ public class DSdiem implements file{
         }
     }
 
-    // public void ghiFile(){
-    //     try {
-    //         // Lấy đường dẫn hiện tại
-    //         String currentDirectory = System.getProperty("user.dir");
-    //         // Tạo đường dẫn tương đối của file
-    //         String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dsDiem-out.txt";
-    //         FileWriter fw = new FileWriter(filePath);
-    //         fw.write("DANH SACH DIEM HOC SINH: \n");
-    //         fw.write("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n");
-    //         for (int i = 0; i < this.dsdiem.size(); i++) {
-    //             diem a = this.dsdiem.get(i);
-    //             fw.write(String.format("%s\n", a.toString()));
-    //             for(int j=0;j< a.getMonhoc().length;j++){
-    //                 fw.write(String.format("%s: %f\t\n",a.getMonhoc()[j].getTenmon(),a.getMonhoc()[j].getDiem()));
-    //             }
-    //         }
-    //         fw.write("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n");
-
-    //         fw.close();
-    //         System.out.println("Ghi file thanh cong");
-    //     }catch(Exception e){
-    //         System.out.println("Khong ghi duoc file");
-    //     }
-    // }
     public void ghiFile() {
         try {
             // Lấy đường dẫn hiện tại
@@ -269,6 +253,16 @@ public class DSdiem implements file{
             System.out.println("Co loi xay ra khi doc file: ");
         }
     }
+
+    public boolean trungMaHS(int maHS) {
+        for (diem d : dsdiem) {
+            if (d.getMaHS() == maHS) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public static void main(String[] args){
         DSdiem a = new DSdiem();
         // a.nhapDS();
