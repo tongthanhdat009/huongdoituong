@@ -58,6 +58,8 @@ public class dsGVCN implements file
                 a.setCCCD(b.socccd);
                 a.setDiachi(b.diachi);
                 a.setSdt(b.sdt);
+                flag = true;
+                break;
             }
         }
         if(flag == false) System.out.println("LOI, ma giao vien khong ton tai");
