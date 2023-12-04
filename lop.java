@@ -39,10 +39,8 @@ public class lop{
         this.maGVCN = maGVCN;
     }
     public void setMaLop(String ma) {
-        String check = "^[10-12]{2}[A-D]{1}$";
-        Pattern pattern = Pattern.compile(check);
-        Matcher matcher = pattern.matcher(ma);
-        if(!matcher.matches()) System.out.print("Sai dinh dang ma lop");
+        String regex = "^[10-12]{2}[A-D]{1}$";
+        if(!ma.matches(regex)) System.out.print("Sai dinh dang ma lop");
         else this.maLop = ma;
     }
     public void setSiSo(int siSo) {

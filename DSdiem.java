@@ -1,7 +1,9 @@
 import java.util.Scanner;
+import java.io.File;
+import java.io.FileWriter;
 import java.util.ArrayList;
 
-public class DSdiem {
+public class DSdiem implements file{
 
     private ArrayList<diem> dsdiem;
     Scanner sc = new Scanner(System.in);
@@ -174,6 +176,30 @@ public class DSdiem {
         nhapDS();
         xuatDS();
     }
+    public void ghiFile(){
+        try {
+            // Lấy đường dẫn hiện tại
+            String currentDirectory = System.getProperty("user.dir");
+            // Tạo đường dẫn tương đối của file
+            String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dsCLB-out.txt";
+            FileWriter fw = new FileWriter(filePath);
+            fw.write("DANH SACH CAU LAC BO: \n");
+            fw.write("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n");
+            fw.write("Dinh dang: STT\t\tMa CLB, Ten CLB, Cong viec\n");
+            for (int i = 0; i < this.dsdiem.size(); i++) {
+                diem a = this.dsdiem.get(i);
+                fw.write(String.format("%d, %s\n", (i + 1), a.toString()));
+            }
+            fw.write("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+            fw.close();
+            System.out.println("Ghi file thanh cong");
+        }catch(Exception e){
+            System.out.println("Khong ghi duoc file");
+        }
+    }
+    public void docFile(){}
+
 
     public void menu() {
         int option;
