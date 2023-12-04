@@ -60,7 +60,6 @@ public class DSdiem {
     }
 
     public void themDiem() {
-        Scanner sc = new Scanner(System.in);
         System.out.println("\nNhap thong tin hoc sinh duoc them: ");
         System.out.println("Nhap ma hoc sinh: ");
         int maHS = sc.nextInt();
@@ -90,7 +89,6 @@ public class DSdiem {
     }
 
     public void suaDiem() {
-        Scanner sc = new Scanner(System.in);
         System.out.println("\nNhap ma hoc sinh can sua diem: ");
         int maHS = sc.nextInt();
         boolean timthay = false;
@@ -131,7 +129,6 @@ public class DSdiem {
     }
 
     public void xoaDiem() {
-        Scanner sc = new Scanner(System.in);
         System.out.println("\nNhap ma hoc sinh can xoa diem: ");
         int maHS = sc.nextInt();
         boolean timthay = false;
@@ -149,7 +146,6 @@ public class DSdiem {
     }
 
     public void timKiemDiem() {
-        Scanner sc = new Scanner(System.in);
         System.out.println("\nNhap ma hoc sinh can tim kiem: ");
         int maHS = sc.nextInt();
         boolean timthay = false;
@@ -180,7 +176,6 @@ public class DSdiem {
     }
 
     public void menu() {
-        Scanner sc = new Scanner(System.in);
         int option;
         do {
             System.out.println("\nXin moi chon: ");

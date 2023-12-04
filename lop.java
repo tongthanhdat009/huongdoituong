@@ -42,7 +42,7 @@ public class lop{
         String check = "^[10-12]{2}[A-D]{1}$";
         Pattern pattern = Pattern.compile(check);
         Matcher matcher = pattern.matcher(ma);
-        if(!matcher.matches()) System.out.print("Sai định dạng mã lớp");
+        if(!matcher.matches()) System.out.print("Sai dinh dang ma lop");
         else this.maLop = ma;
     }
     public void setSiSo(int siSo) {

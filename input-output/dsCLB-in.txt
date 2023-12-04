@@ -1,4 +1,3 @@
 CLBamnhac,Cau lac bo am nhac,Dien van nghe o truong
 CLBtoanhoc,Cau lac bo toan hoc,Nghien cuu de tai toan hoc
 CLBkhoahoc,Cau lac bo khoa hoc,Nghien cuu de tai khoa hoc tai truong
-CLBEsports,Cau lac bo the thao dien tu,Choi game va lam giai
