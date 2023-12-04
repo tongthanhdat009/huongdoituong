@@ -98,14 +98,14 @@ public void nhap() {
      in.nextLine();
      diachi=in.nextLine();
      setDiachi(diachi);
-     System.out.print("\nNhap cccd hoc sinh:");
+     System.out.print("\nNhap cccd hoc sinh( chu y :12 so):");
      cccd=in.nextLine();
      setCCCD(cccd);
 	System.out.println("Nhap ma so hoc sinh khong qua 5 chu so:");
 	ma = input.nextInt();
 	setMa(ma);
 	input.nextLine();
-	System.out.println("Nhap so dien thoai cua hoc sinh:");
+	System.out.println("Nhap so dien thoai cua hoc sinh, (luu y : dai 10 so):");
 	sdt = input.nextLine();
 	setSdt(sdt);
 	System.out.println("Nhap hanh kiem cua hoc sinh:");
@@ -120,7 +120,7 @@ public void nhap() {
 }
 @Override
 public void xuat() {
-	System.out.printf("Thong Tin Hoc sinh:\n\tHo và ten học sinh: %s\n\tGioi tinh: %s\n\tNgay-thang-nam sinh: %d-%d-%d\n\tdia chi: %s\n\tSo can cuoc cong dan: %s\n\t ma so: %d\n\t so dien thoai: %s\n\thanh kiem %s\n\tkhoa hoc %s\n\t",
+	System.out.printf("Thong Tin Hoc sinh:\n\tHo và ten hoc sinh: %s\n\tGioi tinh: %s\n\tNgay-thang-nam sinh: %d-%d-%d\n\tdia chi: %s\n\tSo can cuoc cong dan: %s\n\t ma so: %d\n\t so dien thoai: %s\n\thanh kiem %s\n\tkhoa hoc %s\n\t",
 			getHoten(), getGioitinh(), getNgaysinh(), getThangsinh(), getNamsinh(), getDiachi(), getCCCD(), getMa(),getSdt(),getHanhkiem(),getKhoahoc());
 }
 
