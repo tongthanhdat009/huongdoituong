@@ -277,6 +277,7 @@ public class main {
                     break;
                 case 0:
                     System.out.println("Chuong trinh hoan thanh");
+                    break;
                 default:
                     System.out.println("Lua chon khong hop le vui long chon lai");
                     break;
