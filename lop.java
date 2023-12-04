@@ -76,6 +76,6 @@ public class lop{
     }
     public String toString2()
     {
-        return "Ma lop: "+maLop+"\t Ma GVCN: "+maGVCN+"\t"+phong.toString2();
+        return "Ma lop: "+maLop+"\t, Ma GVCN: "+maGVCN+"\t, "+phong.toString2();
     }
 }

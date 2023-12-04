@@ -89,6 +89,6 @@ public class diem {
         }
     }
     public String toString(){
-        return getMaHS()+" "+getHocky()+" "+getNamhoc()+" "+getAvgDiem()+" "+getXeploai();
+        return "Hoc ky: "+getHocky()+"\t, Nam hoc: "+getNamhoc()+"\t, DTB: "+getAvgDiem()+"\t, Hoc luc: "+getXeploai();
     }
 }

@@ -57,7 +57,7 @@ public class phongHoc {
     }
     public String toString2()
     {
-        return "Ma phong: "+maPhong+"\t So ghe: "+soGhe+"\t So ban: "+soBan;
+        return "Ma phong: "+maPhong+"\t, So ghe: "+soGhe+"\t, So ban: "+soBan;
     }
     public static int getSoLuongPhong()
     {

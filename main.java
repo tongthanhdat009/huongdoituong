@@ -247,10 +247,11 @@ public class main {
             System.out.println("CHUONG TRINH QUAN LY HOC SINH");
             System.out.println("Moi nhap lua chon de xem:");
             System.out.println("1. Quan ly cau lac bo");
-            System.out.println("2. Quan ly cau lop");
+            System.out.println("2. Quan ly lop");
             System.out.println("3. Quan ly hoc sinh");
             System.out.println("4. Quan ly giao vien");
             System.out.println("5. Quan ly diem");
+            System.out.println("6. Ket hop danh sach lop, hoc sinh, giao vien, diem");
             System.out.println("0.Dung chuong trinh");
             System.out.println("Nhap lua chon: ");
             luachon = in.nextInt();
@@ -271,11 +272,12 @@ public class main {
                 case 5:
                     quanLyDanhSachDiem(dsDiem);
                 case 6:
-                    dsdaydu ds = new dsdaydu(dsGVCN.getDs(),dsLop.getds(),dsHocSinh.getDs());
+                    dsdaydu ds = new dsdaydu(dsGVCN.getDs(),dsLop.getds(),dsHocSinh.getDs(),dsDiem.getDs());
                     ds.ghiFile();
                     break;
                 case 0:
                     System.out.println("Chuong trinh hoan thanh");
+                    break;
                 default:
                     System.out.println("Lua chon khong hop le vui long chon lai");
                     break;
