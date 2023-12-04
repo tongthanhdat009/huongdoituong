@@ -172,10 +172,6 @@ public class DSdiem implements file{
         }
     }
 
-    public void nhapXuatDS() {
-        nhapDS();
-        xuatDS();
-    }
     public void ghiFile(){
         try {
             // Lấy đường dẫn hiện tại
@@ -199,44 +195,4 @@ public class DSdiem implements file{
         }
     }
     public void docFile(){}
-
-
-    public void menu() {
-        int option;
-        do {
-            System.out.println("\nXin moi chon: ");
-            System.out.println("1. Them");
-            System.out.println("2. Sua");
-            System.out.println("3. Xoa");
-            System.out.println("4. Tim kiem");
-            System.out.println("5. Thoat");
-            System.out.println("6. Xuat danh sach");
-            System.out.println("Nhap lua chon cua ban: ");
-            option = sc.nextInt();
-            switch (option) {
-                case 1:
-                    themDiem();
-                    break;
-                case 2:
-                    suaDiem();
-                    break;
-                case 3:
-                    xoaDiem();
-                    break;
-                case 4:
-                    timKiemDiem();
-                    break;
-                case 5:
-                    xuatDS();
-                    break;
-                case 6:
-                    System.out.println("Tam biet!");
-                    break;
-                default:
-                    System.out.println("Khong hop le. Vui long nhap lai.");
-                    break;
-            }
-        } while (option != 6);
-    }
-
 }
