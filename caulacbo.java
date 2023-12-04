@@ -54,7 +54,7 @@ public class caulacbo {
         setMaCLB(maCLB);
         System.out.print("Moi nhap ten cau lac bo (vi du: Cau lac bo toan hoc): ");
         tenCLB = in.nextLine();
-        setTenCLB(tenCLB);;
+        setTenCLB(tenCLB);
         System.out.println("Moi nhap cong viec cua cau lac bo: ");
         congviec = in.nextLine();
         setCongViec(congviec);

@@ -177,14 +177,16 @@ public class DSdiem implements file{
             // Lấy đường dẫn hiện tại
             String currentDirectory = System.getProperty("user.dir");
             // Tạo đường dẫn tương đối của file
-            String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dsCLB-out.txt";
+            String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dsDiem-out.txt";
             FileWriter fw = new FileWriter(filePath);
-            fw.write("DANH SACH CAU LAC BO: \n");
+            fw.write("DANH SACH DIEM HOC SINH: \n");
             fw.write("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n");
-            fw.write("Dinh dang: STT\t\tMa CLB, Ten CLB, Cong viec\n");
             for (int i = 0; i < this.dsdiem.size(); i++) {
                 diem a = this.dsdiem.get(i);
-                fw.write(String.format("%d, %s\n", (i + 1), a.toString()));
+                fw.write(String.format("%s\n", a.toString()));
+                for(int j=0;j< a.getMonhoc().length;j++){
+                    fw.write(String.format("%s: %f\t\n",a.getMonhoc()[j].getTenmon(),a.getMonhoc()[j].getDiem()));
+                }
             }
             fw.write("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n");
 
@@ -195,4 +197,10 @@ public class DSdiem implements file{
         }
     }
     public void docFile(){}
+    public static void main(String[] args){
+        DSdiem a = new DSdiem();
+        a.nhapDS();
+        a.ghiFile();
+        a.xuatDS();
+    }
 }

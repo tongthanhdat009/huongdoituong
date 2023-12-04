@@ -88,4 +88,7 @@ public class diem {
             return "Kem";
         }
     }
+    public String toString(){
+        return getMaHS()+" "+getHocky()+" "+getNamhoc()+" "+getAvgDiem()+" "+getXeploai();
+    }
 }
