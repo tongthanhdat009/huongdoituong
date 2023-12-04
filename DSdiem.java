@@ -1,6 +1,10 @@
 import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class DSdiem implements file{
@@ -172,34 +176,100 @@ public class DSdiem implements file{
         }
     }
 
-    public void ghiFile(){
+    // public void ghiFile(){
+    //     try {
+    //         // Lấy đường dẫn hiện tại
+    //         String currentDirectory = System.getProperty("user.dir");
+    //         // Tạo đường dẫn tương đối của file
+    //         String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dsDiem-out.txt";
+    //         FileWriter fw = new FileWriter(filePath);
+    //         fw.write("DANH SACH DIEM HOC SINH: \n");
+    //         fw.write("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n");
+    //         for (int i = 0; i < this.dsdiem.size(); i++) {
+    //             diem a = this.dsdiem.get(i);
+    //             fw.write(String.format("%s\n", a.toString()));
+    //             for(int j=0;j< a.getMonhoc().length;j++){
+    //                 fw.write(String.format("%s: %f\t\n",a.getMonhoc()[j].getTenmon(),a.getMonhoc()[j].getDiem()));
+    //             }
+    //         }
+    //         fw.write("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+    //         fw.close();
+    //         System.out.println("Ghi file thanh cong");
+    //     }catch(Exception e){
+    //         System.out.println("Khong ghi duoc file");
+    //     }
+    // }
+    public void ghiFile() {
         try {
             // Lấy đường dẫn hiện tại
             String currentDirectory = System.getProperty("user.dir");
             // Tạo đường dẫn tương đối của file
             String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dsDiem-out.txt";
-            FileWriter fw = new FileWriter(filePath);
-            fw.write("DANH SACH DIEM HOC SINH: \n");
+            FileWriter fw = new FileWriter(filePath); 
+            BufferedWriter bw = new BufferedWriter(fw); 
             fw.write("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n");
-            for (int i = 0; i < this.dsdiem.size(); i++) {
-                diem a = this.dsdiem.get(i);
-                fw.write(String.format("%s\n", a.toString()));
-                for(int j=0;j< a.getMonhoc().length;j++){
-                    fw.write(String.format("%s: %f\t\n",a.getMonhoc()[j].getTenmon(),a.getMonhoc()[j].getDiem()));
+            bw.write("Danh sách điểm của các học sinh: \n"); 
+            for (int i = 0; i < dsdiem.size(); i++) { 
+                bw.write("\nThông tin học sinh thứ " + (i + 1) + ": \n"); 
+                bw.write("Mã học sinh: " + dsdiem.get(i).getMaHS() + "\t");
+                bw.write("Năm học: " + dsdiem.get(i).getNamhoc() + "\t");
+                bw.write("Học kỳ: " + dsdiem.get(i).getHocky() + "\n");
+                bw.write("Điểm trung bình: " + dsdiem.get(i).getAvgDiem() + "\t");
+                bw.write("Xếp loại: " + dsdiem.get(i).getXeploai() + "\n");
+                bw.write("Điểm các môn học: \n");
+                for (int j = 0; j < 5; j++) { 
+                    bw.write("Môn " + dsdiem.get(i).getMonhoc()[j].getTenmon() + ": " + dsdiem.get(i).getMonhoc()[j].getDiem() + "\n"); 
                 }
             }
             fw.write("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n");
-
-            fw.close();
-            System.out.println("Ghi file thanh cong");
-        }catch(Exception e){
-            System.out.println("Khong ghi duoc file");
+            bw.close(); 
+            fw.close(); 
+            System.out.println("Da ghi file thanh cong.");
+        } catch (IOException e) { 
+            System.out.println("Co loi xay ra khi ghi file: ");
         }
     }
-    public void docFile(){}
+    public void docFile() {
+        try {
+            //lây đường dẫn
+            String currentDirectory = System.getProperty("user.dir");
+            //tạo đường dẫn
+            String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dsDiem-in.txt";
+            FileReader fr = new FileReader(filePath); 
+            BufferedReader br = new BufferedReader(fr); 
+            String line = br.readLine(); 
+            while (line != null) { 
+                String[] data = line.split(", "); 
+                int maHS = Integer.parseInt(data[0]); 
+                int namhoc = Integer.parseInt(data[1]); 
+                int hocky = Integer.parseInt(data[2]); 
+                monhoc[] monhoc = new monhoc[5]; 
+                float diemtoan = Float.parseFloat(data[3]); 
+                monhoc[0] = new monhoc("Toan", diemtoan, 1); 
+                float diemanh = Float.parseFloat(data[4]); 
+                monhoc[1] = new monhoc("Anh", diemanh, 2); 
+                float diemvan = Float.parseFloat(data[5]); 
+                monhoc[2] = new monhoc("Van", diemvan, 3); 
+                float diemhoa = Float.parseFloat(data[6]); 
+                monhoc[3] = new monhoc("Hoa", diemhoa, 4); 
+                float diemly = Float.parseFloat(data[7]); 
+                monhoc[4] = new monhoc("Ly", diemly, 5); 
+                diem diem = new diem(maHS, namhoc, hocky, monhoc); 
+                dsdiem.add(diem); 
+                line = br.readLine(); 
+            }
+            br.close(); 
+            fr.close(); 
+            System.out.println("Da doc file thanh cong.");
+        } catch (IOException e) { 
+            System.out.println("Co loi xay ra khi doc file: ");
+        }
+    }
     public static void main(String[] args){
         DSdiem a = new DSdiem();
-        a.nhapDS();
+        // a.nhapDS();
+        a.docFile();
         a.ghiFile();
         a.xuatDS();
     }
