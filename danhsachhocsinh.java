@@ -140,8 +140,8 @@ public void parse(String line) {
 		namsinh =Integer.parseInt(param[5]);
 		
 		
-		socccd = param[6];
-		diachi= param[7];
+		diachi= param[6];
+		socccd = param[7];
 		sdt = param[8];
 		hanhkiem= param[9];
 		khoahoc = param[10];
