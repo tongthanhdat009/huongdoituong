@@ -80,7 +80,7 @@ public void nhap() {
      int ngay,thang,nam;
      String diachi;
      String cccd;
-     System.out.print("Moi nhap ho ten ho ten:");
+     System.out.print("Moi nhap ho ten ho ten:(luu y: viet hoa ten)");
      hoten=in.nextLine();
      setHoten(hoten);
      System.out.print("Moi nhap gioi tinh cua hoc sinh:");
@@ -94,7 +94,7 @@ public void nhap() {
      System.out.print("Nhap nam:");
      nam=in.nextInt();
      setNgaythangnamsinh(ngay, thang, nam);
-     System.out.print("\nNhap dia chi hoc sinh");
+     System.out.print("\nNhap dia chi hoc sinh: ");
      in.nextLine();
      diachi=in.nextLine();
      setDiachi(diachi);
