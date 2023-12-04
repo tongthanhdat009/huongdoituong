@@ -271,6 +271,7 @@ public class main {
                     break;
                 case 5:
                     quanLyDanhSachDiem(dsDiem);
+                    break;
                 case 6:
                     dsdaydu ds = new dsdaydu(dsGVCN.getDs(),dsLop.getds(),dsHocSinh.getDs(),dsDiem.getDs());
                     ds.ghiFile();
