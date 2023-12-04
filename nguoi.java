@@ -28,7 +28,7 @@ public abstract class nguoi {
     }
     // get/set họ tên
     public void setHoten(String hoten) {
-        if (hoten.matches("([a-z]|[A-Z]|\\s){10,20}$")) {
+        if (hoten.matches("([a-z]|[A-Z]|\\s){10,50}$")) {
             this.hoten = hoten.toUpperCase();
         } else {
             this.hoten = "ho ten khong hop le";
