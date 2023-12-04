@@ -32,21 +32,12 @@ public class DSdiem implements file{
             System.out.println("Nhap hoc ky: ");
             int hocky = sc.nextInt();
             monhoc[] monhoc = new monhoc[5];
-            System.out.println("Nhap diem mon toan: ");
-            float diemtoan = sc.nextFloat();
-            monhoc[0] = new monhoc("Toan", diemtoan, 1);
-            System.out.println("Nhap diem mon anh: ");
-            float diemanh = sc.nextFloat();
-            monhoc[1] = new monhoc("Anh", diemanh, 2);
-            System.out.println("Nhap diem mon van: ");
-            float diemvan = sc.nextFloat();
-            monhoc[2] = new monhoc("Văn", diemvan, 3);
-            System.out.println("Nhap diem mon hoa: ");
-            float diemhoa = sc.nextFloat();
-            monhoc[3] = new monhoc("Hoa", diemhoa, 4);
-            System.out.println("Nhap diem mon ly: ");
-            float diemly = sc.nextFloat();
-            monhoc[4] = new monhoc("Ly", diemly, 5);
+            // Gọi phương thức nhập điểm cho mỗi môn học
+            monhoc[0] = nhapDiem("Toan", 1);
+            monhoc[1] = nhapDiem("Anh", 2);
+            monhoc[2] = nhapDiem("Văn", 3);
+            monhoc[3] = nhapDiem("Hoa", 4);
+            monhoc[4] = nhapDiem("Ly", 5);
             diem diem = new diem(maHS, namhoc, hocky, monhoc);
             dsdiem.add(diem);
         }
@@ -82,24 +73,15 @@ public class DSdiem implements file{
         System.out.println("Nhap hoc ky: ");
         int hocky = sc.nextInt();
         monhoc[] monhoc = new monhoc[5];
-        System.out.println("Nhap diem mon toan: ");
-        float diemtoan = sc.nextFloat();
-        monhoc[0] = new monhoc("Toan", diemtoan, 1);
-        System.out.println("Nhap diem mon anh: ");
-        float diemanh = sc.nextFloat();
-        monhoc[1] = new monhoc("Anh", diemanh, 2);
-        System.out.println("Nhap diem mon van: ");
-        float diemvan = sc.nextFloat();
-        monhoc[2] = new monhoc("Van", diemvan, 3);
-        System.out.println("Nhap diem mon hoa: ");
-        float diemhoa = sc.nextFloat();
-        monhoc[3] = new monhoc("Hoa", diemhoa, 4);
-        System.out.println("Nhap diem mon ly: ");
-        float diemly = sc.nextFloat();
-        monhoc[4] = new monhoc("Ly", diemly, 5);
-        diem diem = new diem(maHS, namhoc, hocky, monhoc);
-        dsdiem.add(diem);
-        System.out.println("Da them thong tin cho hoc sin co ma " + maHS);
+            // Gọi phương thức nhập điểm cho mỗi môn học
+            monhoc[0] = nhapDiem("Toan", 1);
+            monhoc[1] = nhapDiem("Anh", 2);
+            monhoc[2] = nhapDiem("Văn", 3);
+            monhoc[3] = nhapDiem("Hoa", 4);
+            monhoc[4] = nhapDiem("Ly", 5);
+            diem diem = new diem(maHS, namhoc, hocky, monhoc);
+            dsdiem.add(diem);
+            System.out.println("Da them thong tin cho hoc sin co ma " + maHS);
     }
 
     public void suaDiem() {
@@ -260,11 +242,21 @@ public class DSdiem implements file{
         return false;
     }
 
+    public monhoc nhapDiem(String tenmon, int mamh) {
+        System.out.println("Nhap diem mon " + tenmon + ": ");
+        float diem = sc.nextFloat();
+        // Kiểm tra điểm có hợp lệ không
+        while (diem < 1 || diem > 10) {
+            System.out.println("Diem mon " + tenmon + " khong nam trong khoang tu 0 den 10. Vui long nhap lai: ");
+            diem = sc.nextFloat();
+        }
+        return new monhoc(tenmon, diem, mamh);
+    }
+
     public static void main(String[] args){
         DSdiem a = new DSdiem();
-        // a.nhapDS();
-        a.docFile();
-        a.ghiFile();
+        a.nhapDS();
+        a.themDiem();
         a.xuatDS();
     }
 }
