@@ -174,7 +174,51 @@ public class main {
             }
         }while(luachon!=0);
     }
-    public static void quanLyDanhSachDiem(){}
+
+    public static void quanLyDanhSachDiem(DSdiem dsdiem){
+        int luachon1;
+        do {
+            System.out.println("--------------------------------------------------");
+            System.out.println("Lua chon tac vu xu ly diem: ");
+            System.out.println("1. Doc file");
+            System.out.println("2. Ghi file");
+            System.out.println("3. Nhap diem");
+            System.out.println("4. Xoa diem");
+            System.out.println("5. Sua diem cua 1 hoc sinh theo ma");
+            System.out.println("6. Tim kiem diem cua 1 hoc sinh theo ma");
+            System.out.println("7. Them diem cho 1 hoc sinh theo ma");
+            System.out.println("0. Quay lai giao dien chinh");
+            System.out.print("Moi nhap lua chon: ");
+            luachon1 = in.nextInt();
+            switch (luachon1) {
+                case 1:
+                    dsdiem.docFile();
+                    break;
+                case 2:
+                    dsdiem.ghiFile();
+                    break;
+                case 3:
+                    dsdiem.nhapDS();
+                    break;
+                 case 4:
+                    dsdiem.xoaDiem();
+                    break;
+                case 5:
+                    dsdiem.suaDiem();
+                    break;
+                case 6:
+                    dsdiem.timKiemDiem();
+                    break;
+                case 7:
+                    dsdiem.themDiem();
+                default:
+                    System.out.println("Lua chon khong hop le vui long chon lai");
+                    break;
+            }
+        }
+        while(luachon1!=0);
+    }
+    
     public static void main(String[] args){
         //danh sách câu lạc bộ
         ArrayList<caulacbo> dsclb = new ArrayList<caulacbo>();
