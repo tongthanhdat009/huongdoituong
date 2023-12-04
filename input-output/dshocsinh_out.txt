@@ -1,3 +1,3 @@
-12, Họ và tên :ho ten khong hop le, Giới tính :nam,2,3,2004, Địa chỉ :tphcm, Số căn cước công dân :so can cuoc cong dan khong hop le, Số điện thoại :123, Hạnh kiểm :tot, Khóa học :2019
+
  stt : 12, Họ và tên : Họ và tên :ho ten khong hop le, Giới tính : Giới tính :nam, Ngày sinh :2, Tháng sinh :3, Năm sinh :2004, Địa chỉ :, Số căn cước công dân : Địa chỉ :tphcm, Số điện thoại : Số điện thoại :123, Hạnh kiểm : Hạnh kiểm :tot, Khóa học : Khóa học :2019
  stt : 12, Họ và tên :ho ten khong hop le, Giới tính :Nam, Ngày sinh :14, Tháng sinh :5, Năm sinh :2004, Địa chỉ :tphcm, Số căn cước công dân :079204003182, Số điện thoại :0395632027, Hạnh kiểm :100, Khóa học :90
