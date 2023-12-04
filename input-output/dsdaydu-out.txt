@@ -1,68 +1,69 @@
 DANH SACH HOC SINH, GIAO VIEN THEO LOP: 
 -------------------------------------------------------------------------------------------------------
-Ma lop: 12A	 Ma GVCN: 1	Ma phong: 1	 So ghe: 10	 So ban: 24
+Ma lop: 12A	, Ma GVCN: 1	, Ma phong: 1	, So ghe: 10	, So ban: 24
 Thong tin giao vien chu nhiem
-Ma GV: 1	SDT: 0900000000	Ho ten: NGUYEN VAN A	Gioi tinh: Nam	Ngay thang nam sinh: 6/1/2004	Dia chi:Quan 1	CCCD: 123456789012
+Ma GV: 1	, SDT: 0900000000	, Ho ten: NGUYEN VAN A	, Gioi tinh: Nam	, Ngay thang nam sinh: 6/1/2004	, Dia chi:Quan 1	, CCCD: 123456789012
 Thong tin hoc sinh trong lop
- STT: 17	Ho va ten: Học Sinh Q	Khoa hoc :12A	Gioi tinh: nam	Ngay thang nam sinh: 17/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot
- STT: 18	Ho va ten: Học Sinh R	Khoa hoc :12A	Gioi tinh: nam	Ngay thang nam sinh: 18/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot
+Ma HS: 17	Ho va ten: Học Sinh Q	Khoa hoc :12A	Gioi tinh: nam	Ngay thang nam sinh: 17/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
+Ma HS: 18	Ho va ten: Học Sinh R	Khoa hoc :12A	Gioi tinh: nam	Ngay thang nam sinh: 18/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
+Ma HS: 23	Ho va ten: NGUYEN MINH TUAN	Khoa hoc :12A	Gioi tinh: Nam	Ngay thang nam sinh: 6/1/2004	Dia chi: 259/18,So can cuoc cong dan: 123456789012	So dien thoai: 0900000000	Hanh kiem :Tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
 -------------------------------------------------------------------------------------------------------
-Ma lop: 12B	 Ma GVCN: 2	Ma phong: 2	 So ghe: 10	 So ban: 24
+Ma lop: 12B	, Ma GVCN: 2	, Ma phong: 2	, So ghe: 10	, So ban: 24
 Thong tin giao vien chu nhiem
-Ma GV: 2	SDT: 0910000000	Ho ten: NGUYEN VAN B	Gioi tinh: Nu	Ngay thang nam sinh: 7/1/2004	Dia chi:Quan 2	CCCD: 123456789012
+Ma GV: 2	, SDT: 0910000000	, Ho ten: NGUYEN VAN B	, Gioi tinh: Nu	, Ngay thang nam sinh: 7/1/2004	, Dia chi:Quan 2	, CCCD: 123456789012
 Thong tin hoc sinh trong lop
- STT: 19	Ho va ten: Học Sinh S	Khoa hoc :12B	Gioi tinh: nam	Ngay thang nam sinh: 19/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot
- STT: 20	Ho va ten: Học Sinh T	Khoa hoc :12B	Gioi tinh: nam	Ngay thang nam sinh: 20/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot
+Ma HS: 19	Ho va ten: Học Sinh S	Khoa hoc :12B	Gioi tinh: nam	Ngay thang nam sinh: 19/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
+Ma HS: 20	Ho va ten: Học Sinh T	Khoa hoc :12B	Gioi tinh: nam	Ngay thang nam sinh: 20/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
 -------------------------------------------------------------------------------------------------------
-Ma lop: 12C	 Ma GVCN: 3	Ma phong: 3	 So ghe: 1	 So ban: 23
+Ma lop: 12C	, Ma GVCN: 3	, Ma phong: 3	, So ghe: 1	, So ban: 23
 Thong tin giao vien chu nhiem
-Ma GV: 3	SDT: 0920000000	Ho ten: NGUYEN VAN C	Gioi tinh: Nu	Ngay thang nam sinh: 8/1/2004	Dia chi:Quan1 1	CCCD: 123456789012
+Ma GV: 3	, SDT: 0920000000	, Ho ten: NGUYEN VAN C	, Gioi tinh: Nu	, Ngay thang nam sinh: 8/1/2004	, Dia chi:Quan1 1	, CCCD: 123456789012
 Thong tin hoc sinh trong lop
- STT: 21	Ho va ten: Học Sinh S	Khoa hoc :12C	Gioi tinh: nam	Ngay thang nam sinh: 21/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot
- STT: 22	Ho va ten: Học Sinh T	Khoa hoc :12C	Gioi tinh: nam	Ngay thang nam sinh: 22/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot
+Ma HS: 21	Ho va ten: Học Sinh S	Khoa hoc :12C	Gioi tinh: nam	Ngay thang nam sinh: 21/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
+Ma HS: 22	Ho va ten: Học Sinh T	Khoa hoc :12C	Gioi tinh: nam	Ngay thang nam sinh: 22/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
 -------------------------------------------------------------------------------------------------------
-Ma lop: 11A	 Ma GVCN: 4	Ma phong: 4	 So ghe: 10	 So ban: 24
+Ma lop: 11A	, Ma GVCN: 4	, Ma phong: 4	, So ghe: 10	, So ban: 24
 Thong tin giao vien chu nhiem
-Ma GV: 4	SDT: 0930000000	Ho ten: NGUYEN VAN D	Gioi tinh: Nam	Ngay thang nam sinh: 9/1/2004	Dia chi:Quan Binh Thanh	CCCD: 123456789012
+Ma GV: 4	, SDT: 0930000000	, Ho ten: NGUYEN VAN D	, Gioi tinh: Nam	, Ngay thang nam sinh: 9/1/2004	, Dia chi:Quan Binh Thanh	, CCCD: 123456789012
 Thong tin hoc sinh trong lop
- STT: 9	Ho va ten: Học Sinh I	Khoa hoc :11A	Gioi tinh: nam	Ngay thang nam sinh: 9/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot
- STT: 10	Ho va ten: Học Sinh J	Khoa hoc :11A	Gioi tinh: nam	Ngay thang nam sinh: 10/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot
+Ma HS: 9	Ho va ten: Học Sinh I	Khoa hoc :11A	Gioi tinh: nam	Ngay thang nam sinh: 9/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
+Ma HS: 10	Ho va ten: Học Sinh J	Khoa hoc :11A	Gioi tinh: nam	Ngay thang nam sinh: 10/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 10.0	, Hoc luc: Xuat sac
 -------------------------------------------------------------------------------------------------------
-Ma lop: 11B	 Ma GVCN: 5	Ma phong: 5	 So ghe: 10	 So ban: 24
+Ma lop: 11B	, Ma GVCN: 5	, Ma phong: 5	, So ghe: 10	, So ban: 24
 Thong tin giao vien chu nhiem
-Ma GV: 5	SDT: 0940000000	Ho ten: NGUYEN VAN E	Gioi tinh: Nu	Ngay thang nam sinh: 10/1/2004	Dia chi:Quan 3	CCCD: 123456789012
+Ma GV: 5	, SDT: 0940000000	, Ho ten: NGUYEN VAN E	, Gioi tinh: Nu	, Ngay thang nam sinh: 10/1/2004	, Dia chi:Quan 3	, CCCD: 123456789012
 Thong tin hoc sinh trong lop
- STT: 11	Ho va ten: Học Sinh K	Khoa hoc :11B	Gioi tinh: nam	Ngay thang nam sinh: 11/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot
- STT: 12	Ho va ten: Học Sinh L	Khoa hoc :11B	Gioi tinh: nam	Ngay thang nam sinh: 12/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot
- STT: 16	Ho va ten: Học Sinh P	Khoa hoc :11B	Gioi tinh: nam	Ngay thang nam sinh: 16/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot
+Ma HS: 11	Ho va ten: Học Sinh K	Khoa hoc :11B	Gioi tinh: nam	Ngay thang nam sinh: 11/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
+Ma HS: 12	Ho va ten: Học Sinh L	Khoa hoc :11B	Gioi tinh: nam	Ngay thang nam sinh: 12/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
+Ma HS: 16	Ho va ten: Học Sinh P	Khoa hoc :11B	Gioi tinh: nam	Ngay thang nam sinh: 16/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
 -------------------------------------------------------------------------------------------------------
-Ma lop: 11C	 Ma GVCN: 6	Ma phong: 6	 So ghe: 1	 So ban: 23
+Ma lop: 11C	, Ma GVCN: 6	, Ma phong: 6	, So ghe: 1	, So ban: 23
 Thong tin giao vien chu nhiem
-Ma GV: 6	SDT: 0950000000	Ho ten: NGUYEN VAN F	Gioi tinh: Nu	Ngay thang nam sinh: 11/1/2004	Dia chi:Quan 1	CCCD: 123456789012
+Ma GV: 6	, SDT: 0950000000	, Ho ten: NGUYEN VAN F	, Gioi tinh: Nu	, Ngay thang nam sinh: 11/1/2004	, Dia chi:Quan 1	, CCCD: 123456789012
 Thong tin hoc sinh trong lop
- STT: 13	Ho va ten: Học Sinh M	Khoa hoc :11C	Gioi tinh: nam	Ngay thang nam sinh: 13/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot
- STT: 14	Ho va ten: Học Sinh N	Khoa hoc :11C	Gioi tinh: nam	Ngay thang nam sinh: 14/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot
- STT: 15	Ho va ten: Học Sinh O	Khoa hoc :11C	Gioi tinh: nam	Ngay thang nam sinh: 15/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot
+Ma HS: 13	Ho va ten: Học Sinh M	Khoa hoc :11C	Gioi tinh: nam	Ngay thang nam sinh: 13/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
+Ma HS: 14	Ho va ten: Học Sinh N	Khoa hoc :11C	Gioi tinh: nam	Ngay thang nam sinh: 14/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
+Ma HS: 15	Ho va ten: Học Sinh O	Khoa hoc :11C	Gioi tinh: nam	Ngay thang nam sinh: 15/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
 -------------------------------------------------------------------------------------------------------
-Ma lop: 10A	 Ma GVCN: 7	Ma phong: 7	 So ghe: 10	 So ban: 24
+Ma lop: 10A	, Ma GVCN: 7	, Ma phong: 7	, So ghe: 10	, So ban: 24
 Thong tin giao vien chu nhiem
-Ma GV: 7	SDT: 0960000000	Ho ten: NGUYEN VAN G	Gioi tinh: Nu	Ngay thang nam sinh: 12/1/2004	Dia chi:Quan 5	CCCD: 123456789012
+Ma GV: 7	, SDT: 0960000000	, Ho ten: NGUYEN VAN G	, Gioi tinh: Nu	, Ngay thang nam sinh: 12/1/2004	, Dia chi:Quan 5	, CCCD: 123456789012
 Thong tin hoc sinh trong lop
- STT: 1	Ho va ten: Học Sinh A	Khoa hoc :10A	Gioi tinh: nam	Ngay thang nam sinh: 1/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot
- STT: 2	Ho va ten: Học Sinh B	Khoa hoc :10A	Gioi tinh: nam	Ngay thang nam sinh: 2/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot
- STT: 7	Ho va ten: Học Sinh G	Khoa hoc :10A	Gioi tinh: nam	Ngay thang nam sinh: 7/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot
+Ma HS: 1	Ho va ten: Học Sinh A	Khoa hoc :10A	Gioi tinh: nam	Ngay thang nam sinh: 1/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.0	, Hoc luc: Kha
+Ma HS: 2	Ho va ten: Học Sinh B	Khoa hoc :10A	Gioi tinh: nam	Ngay thang nam sinh: 2/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.4	, Hoc luc: Kha
+Ma HS: 7	Ho va ten: Học Sinh G	Khoa hoc :10A	Gioi tinh: nam	Ngay thang nam sinh: 7/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.4	, Hoc luc: Kha
 -------------------------------------------------------------------------------------------------------
-Ma lop: 10B	 Ma GVCN: 8	Ma phong: 8	 So ghe: 10	 So ban: 24
+Ma lop: 10B	, Ma GVCN: 8	, Ma phong: 8	, So ghe: 10	, So ban: 24
 Thong tin giao vien chu nhiem
-Ma GV: 8	SDT: 0970000000	Ho ten: NGUYEN VAN H	Gioi tinh: Nu	Ngay thang nam sinh: 13/1/2004	Dia chi:Quan Go Vap	CCCD: 123456789012
+Ma GV: 8	, SDT: 0970000000	, Ho ten: NGUYEN VAN H	, Gioi tinh: Nu	, Ngay thang nam sinh: 13/1/2004	, Dia chi:Quan Go Vap	, CCCD: 123456789012
 Thong tin hoc sinh trong lop
- STT: 3	Ho va ten: Học Sinh C	Khoa hoc :10B	Gioi tinh: nam	Ngay thang nam sinh: 3/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot
- STT: 4	Ho va ten: Học Sinh D	Khoa hoc :10B	Gioi tinh: nam	Ngay thang nam sinh: 4/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot
+Ma HS: 3	Ho va ten: Học Sinh C	Khoa hoc :10B	Gioi tinh: nam	Ngay thang nam sinh: 3/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 6.0	, Hoc luc: Trung binh
+Ma HS: 4	Ho va ten: Học Sinh D	Khoa hoc :10B	Gioi tinh: nam	Ngay thang nam sinh: 4/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 5.4	, Hoc luc: Trung binh
 -------------------------------------------------------------------------------------------------------
-Ma lop: 10C	 Ma GVCN: 9	Ma phong: 9	 So ghe: 1	 So ban: 23
+Ma lop: 10C	, Ma GVCN: 9	, Ma phong: 9	, So ghe: 1	, So ban: 23
 Thong tin giao vien chu nhiem
-Ma GV: 9	SDT: 0980000000	Ho ten: NGUYEN VAN I	Gioi tinh: Nam	Ngay thang nam sinh: 14/1/2004	Dia chi:Quan 9	CCCD: 123456789012
+Ma GV: 9	, SDT: 0980000000	, Ho ten: NGUYEN VAN I	, Gioi tinh: Nam	, Ngay thang nam sinh: 14/1/2004	, Dia chi:Quan 9	, CCCD: 123456789012
 Thong tin hoc sinh trong lop
- STT: 5	Ho va ten: Học Sinh E	Khoa hoc :10C	Gioi tinh: nam	Ngay thang nam sinh: 5/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot
- STT: 6	Ho va ten: Học Sinh F	Khoa hoc :10C	Gioi tinh: nam	Ngay thang nam sinh: 6/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot
- STT: 8	Ho va ten: Học Sinh H	Khoa hoc :10C	Gioi tinh: nam	Ngay thang nam sinh: 8/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot
+Ma HS: 5	Ho va ten: Học Sinh E	Khoa hoc :10C	Gioi tinh: nam	Ngay thang nam sinh: 5/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923564	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 4.6	, Hoc luc: Yeu
+Ma HS: 6	Ho va ten: Học Sinh F	Khoa hoc :10C	Gioi tinh: nam	Ngay thang nam sinh: 6/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 4.2	, Hoc luc: Yeu
+Ma HS: 8	Ho va ten: Học Sinh H	Khoa hoc :10C	Gioi tinh: nam	Ngay thang nam sinh: 8/1/2004	Dia chi: tphcm,So can cuoc cong dan: 0923563	So dien thoai: 123	Hanh kiem :tot	Hoc ky: 1	, Nam hoc: 2023	, DTB: 7.4	, Hoc luc: Kha

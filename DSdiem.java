@@ -15,7 +15,10 @@ public class DSdiem implements file{
     public DSdiem() {
         dsdiem = new ArrayList<diem>();
     }
-
+    public ArrayList<diem> getDs()
+    {
+        return dsdiem;
+    }
     public void nhapDS() {
         System.out.println("Nhap so luong hoc sinh: ");
         int soluong = sc.nextInt();

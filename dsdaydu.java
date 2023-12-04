@@ -4,17 +4,20 @@ public class dsdaydu {
     public ArrayList<giaovien> dsGV;
     public ArrayList <lop> dsLop;
     public ArrayList <danhsachhocsinh> dsHS;
-    public dsdaydu(ArrayList<giaovien> dsGV, ArrayList <lop> dsLop, ArrayList <danhsachhocsinh> dsHS)
+    public ArrayList <diem> dsDiem;
+    public dsdaydu(ArrayList<giaovien> dsGV, ArrayList <lop> dsLop, ArrayList <danhsachhocsinh> dsHS,ArrayList <diem> dsDiem)
     {
         this.dsGV = dsGV;
         this.dsLop = dsLop;
         this.dsHS = dsHS;
+        this.dsDiem = dsDiem;
     }
     public dsdaydu()
     {
         this.dsGV = new ArrayList<>();
         this.dsLop = new ArrayList<>();
         this.dsHS = new ArrayList<>();
+         this.dsDiem = new ArrayList<>();
     }
     public void setDsLop(ArrayList <lop> dsLop)
     {
@@ -56,7 +59,18 @@ public class dsdaydu {
                 fw.write("Thong tin hoc sinh trong lop\n");
                 for(danhsachhocsinh hocsinh: dsHS)
                 {  
-                    if(lop.maLop.equals(hocsinh.khoahoc)) fw.write(hocsinh.toString2()+"\n");
+                    if(lop.maLop.equals(hocsinh.khoahoc)) 
+                    {
+                        fw.write(hocsinh.toString2()+"\t");
+                        for(diem diem: dsDiem)
+                        {
+                            if(hocsinh.getMa() == diem.getMaHS()) 
+                            {
+                                fw.write(diem.toString()+"\n");
+                                break;
+                            }
+                        }
+                    }
                 }
             }
             fw.close();
