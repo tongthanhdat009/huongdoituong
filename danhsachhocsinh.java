@@ -36,13 +36,12 @@ public class danhsachhocsinh extends nguoi {
 		return hanhkiem;
 	}
 	public void setHanhkiem(String hanhkiem) {
-		if(hanhkiem.equals("Tốt") ||hanhkiem.equals("Khá") || hanhkiem.equals("Trung bình") || 
-				hanhkiem.equals("Yếu") || hanhkiem.equals("tốt") || hanhkiem.equals("khá") || hanhkiem.equals("trung bình")|| hanhkiem.equals("yếu")|| hanhkiem.equals("tot") ||
-				hanhkiem.equals("kha") || hanhkiem.equals("trung binh") || hanhkiem.equals("yeu")) {
+		//Điều kiện biểu thức chính quy kiểm tra hạnh kiểm
+		if(hanhkiem.matches("(((T|t){1}ot)|((K|k){1}ha)|((T|t){1}rung(\\s|\\S)(B|b){1}inh)|((Y|y){1}eu))$")) {
 		this.hanhkiem = hanhkiem;}
 		else {
-			System.out.println("Bạn nhập sai rồi!!");
-			System.out.println("Chọn chức năng sửa chi tiết, để cập nhật lại!!");
+			System.out.println("Ban nhap sai roi!");
+			System.out.println("Chon chuc nang chi tiet, de cap nhat lai!");
 
 		}
 	}
@@ -55,8 +54,8 @@ public class danhsachhocsinh extends nguoi {
 		this.ma = ma;
 		}
 	else {
-		System.out.println("Bạn nhập sai rồi!!");
-		System.out.println("Chọn chức năng sửa chi tiết, để cập nhật lại!!");
+		System.out.println("Ban nhap sai roi!");
+		System.out.println("Chon chuc nang chi tiet, de cap nhat lai!");
 
 	}
 	}
@@ -75,38 +74,38 @@ public void nhap() {
      int ngay,thang,nam;
      String diachi;
      String cccd;
-     System.out.print("mời nhập họ tên:");
+     System.out.print("Moi nhap ho ten ho ten:");
      hoten=in.nextLine();
      setHoten(hoten);
-     System.out.print("mời nhập giới tính:");
+     System.out.print("Moi nhap gioi tinh cua hoc sinh:");
      gioitinh = in.nextLine();
      setGioitinh(gioitinh);
-     System.out.println("Mời nhập lần lượt ngày tháng năm sinh:");
-     System.out.print("nhập ngày:");
+     System.out.println("Moi nhap lan luot ngay, thang, nam sinh cua hoc sinh :");
+     System.out.print("Nhap ngay:");
      ngay=in.nextInt();
-     System.out.print("nhập tháng:");
+     System.out.print("Nhap thang:");
      thang=in.nextInt();        
-     System.out.print("nhập năm:");
+     System.out.print("Nhap nam:");
      nam=in.nextInt();
      setNgaythangnamsinh(ngay, thang, nam);
-     System.out.print("\nNhập địa chỉ học sinh:");
+     System.out.print("\nNhap dia chi hoc sinh");
      in.nextLine();
      diachi=in.nextLine();
      setDiachi(diachi);
-     System.out.print("\nNhập cccd học sinh:");
+     System.out.print("\nNhap cccd hoc sinh:");
      cccd=in.nextLine();
      setCCCD(cccd);
-	System.out.println("Nhập mã số học sinh, không quá 5 số:");
+	System.out.println("Nhap ma so hoc sinh khong qua 5 chu so:");
 	ma = input.nextInt();
 	setMa(ma);
 	input.nextLine();
-	System.out.println("Nhập số điện thoại học sinh:");
+	System.out.println("Nhap so dien thoai cua hoc sinh:");
 	sdt = input.nextLine();
 	setSdt(sdt);
-	System.out.println("Nhập hạnh kiểm học sinh  :");
+	System.out.println("Nhap hanh kiem cua hoc sinh:");
 	hanhkiem = input.nextLine();
 	setHanhkiem(hanhkiem);
-	System.out.println("Nhập khóa học học sinh  :");
+	System.out.println("Nhap nien khoa cua hoc sinh: ");
 	khoahoc = input.nextLine();
 	setKhoahoc(khoahoc);
 	
@@ -115,12 +114,12 @@ public void nhap() {
 }
 @Override
 public void xuat() {
-	System.out.printf("Thông Tin Học sinh:\n\tHọ và tên học sinh: %s\n\tGiới tính: %s\n\tNgày-tháng-năm sinh: %d-%d-%d\n\tđịa chỉ: %s\n\tSố căn cước công dân: %s\n\t mã số: %d\n\t so dien thoai: %s\n\thạnh kiểm %s\n\tkhóa học %s\n\t",
+	System.out.printf("Thong Tin Học sinh:\n\tHo và ten học sinh: %s\n\tGioi tinh: %s\n\tNgay-thang-nam sinh: %d-%d-%d\n\tdia chi: %s\n\tSo can cuoc cong dan: %s\n\t ma so: %d\n\t so dien thoai: %s\n\thanh kiem %s\n\tkhoa hoc %s\n\t",
 			getHoten(), getGioitinh(), getNgaysinh(), getThangsinh(), getNamsinh(), getDiachi(), getCCCD(), getMa(),getSdt(),getHanhkiem(),getKhoahoc());
 }
 
 public String getFileline() {
-	return " stt : "+getMa()+","+" Họ và tên :"+ getHoten()+ ","+" Giới tính :"+ getGioitinh() + ","+" Ngày sinh :" + getNgaysinh() +","+" Tháng sinh :"+ getThangsinh()+","+" Năm sinh :"+ getNamsinh()+ ","+" Địa chỉ :"+ getDiachi()+","+" Số căn cước công dân :"+ getCCCD()+","+" Số điện thoại :"+ getSdt()+","+" Hạnh kiểm :"+ getHanhkiem()+","+" Khóa học :"+ getKhoahoc()+ "\n";
+	return " stt : "+getMa()+","+" Ho va ten :"+ getHoten()+ ","+" Gioi tinh :"+ getGioitinh() + ","+" Ngay sinh :" + getNgaysinh() +","+" Thang sinh :"+ getThangsinh()+","+" Nam sinh :"+ getNamsinh()+ ","+" Dia chi :"+ getDiachi()+","+" So can cuoc cong dan :"+ getCCCD()+","+" So dien thoai :"+ getSdt()+","+" Hanh kiem :"+ getHanhkiem()+","+" Khoa hoc :"+ getKhoahoc()+ "\n";
 }
 
 public void parse(String line) {

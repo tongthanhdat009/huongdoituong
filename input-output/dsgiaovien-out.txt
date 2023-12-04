@@ -1,7 +1,4 @@
-DANH SACH CAU LAC BO: 
+DANH SACH GIAO VIEN CHU NHIEM: 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Dinh dang: STT		Ma CLB, Ten CLB, Cong viec
-1, CLBtoanhoc, Cau lac bo toan hoc, Nghien cuu de tai toan hoc
-2, CLBkhoahoc, Cau lac bo khoa hoc, Nghien cuu de tai khoa hoc tai truong
-3, CLBamnhac, Cau lac bo am nhac, Dien van nghe o truong
+MaGV	SDT	HoTen	GioiTinh	NgayThangNamSinh	DiaChi	CCCD
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

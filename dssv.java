@@ -1,16 +1,11 @@
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
@@ -18,29 +13,23 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-public class dssv<Oject> implements file{
-	 public  int n;
+public class dssv implements file{
+	public  int n;
     Scanner input = new Scanner(System.in);
-    
 
     ArrayList<danhsachhocsinh> danhsachhocsinh = new ArrayList<>();
 	public dssv() {
 		n = 0;
 		this.danhsachhocsinh= new ArrayList<danhsachhocsinh>();
-	
-		
 	}
 	public dssv(int n, ArrayList<danhsachhocsinh> dssv){
 		this.n = n;
 		this.danhsachhocsinh=dssv;
-	
-		
 	}
-	
 	
 	public void nhaphocsinh(){
 		System.out.println("-----------------//-----------------");
-		System.out.println("nhập vào số lượng sinh viên cần nhập cho danh sách học sinh :\n");
+		System.out.println("Nhap so luong hoc sinh can nhap: \n");
 	
 
 		
@@ -56,7 +45,7 @@ public class dssv<Oject> implements file{
 		if(danhsachhocsinh.size()==0) {
 			System.out.println(" Danh sach rong");
 		}else {
-		System.out.println(" Danh sách học sinh:");
+		System.out.println(" Danh sach hoc sinh:");
 		for(danhsachhocsinh ds :danhsachhocsinh ) {
 			ds.xuat();
 		}
@@ -67,14 +56,14 @@ public class dssv<Oject> implements file{
 		int chosse=1;
 		while(chosse > 0){
 			show();
-			System.out.println(" Nhập vào lựa chọn cần xóa:");
+			System.out.println(" Nhap vao lua chon can xoa:");
 			 chosse = input.nextInt();
 			input.nextLine();
 			switch(chosse) {
 			case 1: 
 			{
 				String hoten;
-				System.out.println(" Nhập vào họ tên học sinh cần xóa:\n");
+				System.out.println(" Nhap vao hoc ten hoc sinh can xoa:\n");
 				hoten = input.nextLine();
 				boolean check = false;
 				int i;
@@ -89,15 +78,15 @@ public class dssv<Oject> implements file{
 					danhsachhocsinh.remove(i);
 				}
 				else {
-					System.out.println("Nhập sai sdt hoặc không có trong danh sách");
+					System.out.println("Nhap sai ho ten hoc sinh hoac khong co trong danh sach!");
 				}
-				System.out.println("thực hiện chức năng thành công");
+				System.out.println("Thuc hien chu nang thanh cong!");
 				break;
 			}
 			case 2 :
 			{
 				int ma;
-				System.out.println(" Nhập vào mã số học sinh cần xóa:\n");
+				System.out.println(" Nhap vao ma so hoc sinh can xoa:\n");
 				ma = input.nextInt();
 				boolean check = false;
 				int i;
@@ -112,16 +101,16 @@ public class dssv<Oject> implements file{
 					danhsachhocsinh.remove(i);
 				}
 				else {
-					System.out.println("Nhập sai sdt hoặc không có trong danh sách");
+					System.out.println("Nhap sai ma hoc sinh hoac khong co trong danh sach!");
 				}
-				System.out.println("thực hiện chức năng thành công");
+				System.out.println("Thuc hien chuc nang thanh cong!");
 				break;
 				
 				
 			}
 			case 3:{
 				String std;
-				System.out.println(" Nhập vào sdt học sinh cần xóa:\n");
+				System.out.println("Nhap so dien thoai hoc sinh can xoa\n");
 				std = input.nextLine();
 				boolean check = false;
 				int i;
@@ -136,9 +125,9 @@ public class dssv<Oject> implements file{
 					danhsachhocsinh.remove(i);
 				}
 				else {
-					System.out.println("Nhập sai sdt hoặc không có trong danh sách");
+					System.out.println("Nhap sai so dien thoai hoc sinh hoac khong co trong danh sach");
 				}
-				System.out.println("thực hiện chức năng thành công");
+				System.out.println("Thuc hien chuc nang thanh cong!");
 				break;
 			}
 			case 4: 
@@ -149,13 +138,13 @@ public class dssv<Oject> implements file{
 			}
 			default:
 			{
-				System.out.println(" Nhập sai rồi, nhập lại các số trong chức năng!");
+				System.out.println(" Lua chon khong hop le! Moi nhap lai.");
 				chosse=input.nextInt();
 			}
 			
 		
 			}
-			System.out.println("Nhập vào số 0 để thoát hoặc số 1 để tiếp tục ");
+			System.out.println("Nhap 0 de thoat hoac 1 de tiep tuc");
 			chosse=input.nextInt();
 		}
 	}
@@ -166,7 +155,7 @@ public class dssv<Oject> implements file{
 		
 		while(luachon>0) {
 			showupdate();
-			System.out.println(" Lụa chọn theo chức năng cần sửa:\n");
+			System.out.println(" Lua chon thong tin can cap nhat:");
 			luachon = input.nextInt();
 			input.nextLine();
 
@@ -174,182 +163,182 @@ public class dssv<Oject> implements file{
 			case 1:{
 				
 				String hoten;
-				System.out.println("Nhập vào họ và tên của học sinh cũ\n");
+				System.out.println("Nhap ho va ten cua hoc sinh cu:");
 				hoten = input.nextLine();
-				System.out.println("Nhập vào họ và tên của học sinh mới\n");
+				System.out.println("Nhap vao ho va ten cua hoc sinh moi:");
 				String hotenmoi = input.nextLine();
 				for(danhsachhocsinh ds : danhsachhocsinh) {
 					if(ds.getHoten().equals(hoten)) {
 						ds.setHoten(hotenmoi);
 					}
 					else {
-						System.out.println("Không tìm thấy học sinh để cập nhật");
-						System.out.println("Vui lòng kiểm tra lại");
+						System.out.println("Khong tim thay hoc sinh de cap nhat!");
+						System.out.println("Vui long kiem tra lai.");
 					}
 				}
-				System.out.println("Thực hiện xong chức năng ");
+				System.out.println("Thuc hien chuc nang thanh cong! ");
 				break;
 			}
 			case 2: {
-				System.out.println("Nhập vào giới tính của học sinh cũ");
+				System.out.println("Nhap vao gioi tinh cua hoc sinh cu:");
 				String gioitinh = input.nextLine();
-				System.out.println("Nhập vào giới tính của học sinh mới");
+				System.out.println("Nhap vao gioi tinh cua hoc sinh moi:");
 				String gioitinhmoi = input.nextLine();
 				for(danhsachhocsinh ds : danhsachhocsinh) {
 					if(ds.getGioitinh().equals(gioitinh)) {
 						ds.setGioitinh(gioitinhmoi);
 					}
 					else {
-						System.out.println("Không tìm thấy học sinh để cập nhật");
-						System.out.println("Vui lòng kiểm tra lại");
+						System.out.println("Khong tim thay hoc sinh de cap nhat!");
+						System.out.println("Vui long kiem tra lai.");
 					}
 				}
-				System.out.println("Thực hiện xong chức năng ");
+				System.out.println("Thuc hien chuc nang thanh cong!");
 				break;
 			}
 			case 3:
 			{
-				System.out.println("Nhập vào ngày của học sinh cũ");
+				System.out.println("Nhap vao ngay sinh cua hoc sinh cu:");
 				int ngay = input.nextInt();
-				System.out.println("Nhập vào tháng của học sinh cũ");
+				System.out.println("Nhap vao thang sinh cua hoc sinh cu:");
 				int thang = input.nextInt();
-				System.out.println("Nhập vào năm của học sinh cũ");
+				System.out.println("Nhap vao nam sinh cua hoc sinh cu:");
 				int nam = input.nextInt();
-				System.out.println("Nhập vào ngày của học sinh mới");
+				System.out.println("Nhap vao ngay sinh cua hoc sinh moi:");
 				int ngaymoi = input.nextInt();
-				System.out.println("Nhập vào tháng của học sinh mới");
+				System.out.println("Nhap vao thang sinh cua hoc sinh moi:");
 				int thangmoi = input.nextInt();
-				System.out.println("Nhập vào năm của học sinh mới");
+				System.out.println("Nhap vao nam sinh cua hoc sinh moi:");
 				int nammoi = input.nextInt();
 				for(danhsachhocsinh ds : danhsachhocsinh) {
 					if(ds.getNgaysinh()== ngay || ds.getThangsinh() == thang || ds.getNamsinh()== nam) {
 						ds.setNgaythangnamsinh(ngaymoi,thangmoi,nammoi);
 					}
 					else {
-						System.out.println("Không tìm thấy học sinh để cập nhật");
-						System.out.println("Vui lòng kiểm tra lại");
+						System.out.println("Khong tim thay hoc sinh de cap nhat");
+						System.out.println("Vui long kiem tra lai.");
 					}
 				}
-				System.out.println("Thực hiện xong chức năng ");
+				System.out.println("Thuc hien chuc nang thanh cong!");
 				
 				break;
 			}
 			case 4: 
 			{
-				System.out.println("Nhập vào địa chỉ của học sinh cũ");
+				System.out.println("Nhap vao dia chi cua hoc sinh cu");
 				String diachi = input.nextLine();
-				System.out.println("Nhập vào địa chỉ của học sinh mới");
+				System.out.println("Nhap vao dia chi cua hoc sinh moi");
 				String diachimoi = input.nextLine();
 				for(danhsachhocsinh ds : danhsachhocsinh) {
 					if(ds.getDiachi().equals(diachi)) {
 						ds.setDiachi(diachimoi);
 					}
 					else {
-						System.out.println("Không tìm thấy học sinh để cập nhật");
-						System.out.println("Vui lòng kiểm tra lại");
+						System.out.println("Khong tim thay hoc sinh de cap nhat");
+						System.out.println("Vui long kiem tra lai.");
 					}
 				}
-				System.out.println("Thực hiện xong chức năng ");
+				System.out.println("Thuc hien chuc nang thanh cong!");
 				break;
 			}
 			case 5:{
-				System.out.println("Nhập vào căn cước công dân  của học sinh cũ");
+				System.out.println("Nhap vao ma can cuoc cong dan cua hoc sinh cu");
 				String cccd = input.nextLine();
-				System.out.println("Nhập vào căn cước công dân của học sinh mới");
+				System.out.println("Nhap vao ma can cuoc cong dan cua hoc sinh moi");
 				String cccdmoi = input.nextLine();
 				for(danhsachhocsinh ds : danhsachhocsinh) {
 					if(ds.getCCCD().equals(cccd)) {
 						ds.setCCCD(cccdmoi);
 					}
 					else {
-						System.out.println("Không tìm thấy học sinh để cập nhật");
-						System.out.println("Vui lòng kiểm tra lại");
+						System.out.println("Khong tim thay hoc sinh de cap nhat");
+						System.out.println("Vui long kiem tra lai.");
 					}
 				}
-				System.out.println("Thực hiện xong chức năng ");
+				System.out.println("Thuc hien chuc nang thanh cong!");
 				break;
 			}
 			case 6:{
-				System.out.println("Nhập vào mã số của học sinh cũ");
+				System.out.println("Nhap vao ma hoc sinh cu:");
 				int maso = input.nextInt();
-				System.out.println("Nhập vào mã số của học sinh mới");
+				System.out.println("Nhap vao ma hoc sinh moi:");
 				int  masomoi = input.nextInt();
 				for(danhsachhocsinh ds : danhsachhocsinh) {
 					if(ds.getMa() == maso) {
 						ds.setMa(masomoi);
 					}
 					else {
-						System.out.println("Không tìm thấy học sinh để cập nhật");
-						System.out.println("Vui lòng kiểm tra lại");
+						System.out.println("Khong tim thay hoc sinh de cap nhat");
+						System.out.println("Vui long kiem tra lai.");
 					}
 				}
-				System.out.println("Thực hiện xong chức năng ");
+				System.out.println("Thuc hien chuc nang thanh cong!");
 				break;
 			}
 			case 7:{
-				System.out.println("Nhập vào số điện thoại của học sinh cũ");
+				System.out.println("Nhap vao so dien thoai cua hoc sinh cu:");
 				String sdt = input.nextLine();
-				System.out.println("Nhập vào số điện thoại của học sinh mới");
+				System.out.println("Nhap vao so dien thoai cua hoc sinh moi:");
 				String stdmoi = input.nextLine();
 				for(danhsachhocsinh ds : danhsachhocsinh) {
 					if(ds.getSdt().equals(sdt)) {
 						ds.setSdt(stdmoi);
 					}
 					else {
-						System.out.println("Không tìm thấy học sinh để cập nhật");
-						System.out.println("Vui lòng kiểm tra lại");
+						System.out.println("Khong tim thay hoc sinh de cap nhat");
+						System.out.println("Vui long kiem tra lai.");
 					}
 				}
-				System.out.println("Thực hiện xong chức năng ");
+				System.out.println("Thuc hien chuc nang thanh cong!");
 				break;
 			}
 			case 8:{
-				System.out.println("Nhập vào hạnh kiểm  của học sinh cũ");
+				System.out.println("Nhap vao hanh kiem cua hoc sinh cu:");
 				String hanhkiem = input.nextLine();
-				System.out.println("Nhập vào hạnh kiểm của học sinh mới");
+				System.out.println("Nhap vao hanh kiem cua hoc sinh moi:");
 				String hanhkiemmoi = input.nextLine();
 				for(danhsachhocsinh ds : danhsachhocsinh) {
 					if(ds.getHanhkiem().equals(hanhkiem)) {
 						ds.setHanhkiem(hanhkiemmoi);
 					}
 					else {
-						System.out.println("Không tìm thấy học sinh để cập nhật");
-						System.out.println("Vui lòng kiểm tra lại");
+						System.out.println("Khong tim thay hoc sinh de cap nhat");
+						System.out.println("Vui long kiem tra lai.");
 					}
 				}
-				System.out.println("Thực hiện xong chức năng ");
+				System.out.println("Thuc hien chuc nang thanh cong!");
 				break;
 			}
 			case 9 :{
-				System.out.println("Nhập vào khóa học của học sinh cũ");
+				System.out.println("Nhap vao khoa hoc cu:");
 				String khoahoc = input.nextLine();
-				System.out.println("Nhập vào khóa học của học sinh mới");
+				System.out.println("Nhap vao khoa hoc moi:");
 				String khoahocmoi = input.nextLine();
 				for(danhsachhocsinh ds : danhsachhocsinh) {
 					if(ds.getKhoahoc().equals(khoahoc)) {
 						ds.setKhoahoc(khoahocmoi);
 					}
 					else {
-						System.out.println("Không tìm thấy học sinh để cập nhật");
-						System.out.println("Vui lòng kiểm tra lại");
+						System.out.println("Khong tim thay hoc sinh de cap nhat");
+						System.out.println("Vui long kiem tra lai.");
 					}
 				}
-				System.out.println("Thực hiện xong chức năng ");
+				System.out.println("Thuc hien chuc nang thanh cong!");
 				break;
 			}
 			case 0:
-				System.out.println("Tạm biệt, thoát khỏi chương trình");
+				System.out.println("Tam biet thoat khoi chuong trinh!");
 				break;
 			
 			default:
 			{
-				System.out.println("Nhập sai rồi, chưa thực hiện được ,chọn lại !!");
+				System.out.println("Lua chon khong hop le vui long nhap lai");
 				luachon=input.nextInt();
 			}
 			
 			}
-			System.out.println("Thoát thành công chức năng ");
-			System.out.println("Nhập vào số 0 để thoát hoặc số lớn hơn không để tiếp tục ");
+			System.out.println("Thoat chuc nang thanh cong!");
+			System.out.println("Nhap vao so 0 hoac lon hon 0 de tiep tuc ");
 			luachon=input.nextInt();
 			
 		}
@@ -359,10 +348,10 @@ public class dssv<Oject> implements file{
 	public void show() {
 		System.out.println("-----------------//-----------------");
 		System.out.println("----------------Menu----------------");
-		System.out.println("1.Xóa theo tên học sinh");
-		System.out.println("2.Xóa theo mã số học sinh");
-		System.out.println("3.Xóa theo số điện thoại học sinh");
-		System.out.println("4.Thoát,Chọn chức năng mới!!");
+		System.out.println("1.Xoa theo ten hoc sinh.");
+		System.out.println("2.Xoa theo ma so hoc sinh.");
+		System.out.println("3.Xoa theo so dien thoai cua hoc sinh.");
+		System.out.println("4.Thoat, chon chuc nang moi!!");
 		System.out.println("-----------------//-----------------");
 
 		
@@ -371,16 +360,16 @@ public class dssv<Oject> implements file{
 	public void showupdate() {
 		System.out.println("-----------------//-----------------");
 		System.out.println("----------------Menu----------------");
-		System.out.println("1.Sửa chi tiết họ và tên học sinh");
-		System.out.println("2.Sửa chi tiết giới tính học sinh");
-		System.out.println("3.Sửa chi tiết ngày tháng năm sinh cửa học sinh");
-		System.out.println("4.Sửa chi tiết dịa chỉ học sinh");
-		System.out.println("5.Sửa chi tiết căn cước công dân học sinh");
-		System.out.println("6.Sửa chi tiết mã số  học sinh");
-		System.out.println("7.Sửa chi tiết số điện thoại học sinh");
-		System.out.println("8.Sửa chi tiết hạnh kiểm học sinh");
-		System.out.println("9.Sửa chi tiết khóa học  học sinh");
-		System.out.println("0.Thoát chương trình  ");
+		System.out.println("1.Sua chi tiet ho và ten hoc sinh.");
+		System.out.println("2.Sua chi tiet gioi tinh hoc sinh.");
+		System.out.println("3.Sua chi tiet ngay thang nam sinh cua hoc sinh.");
+		System.out.println("4.Sua chi tiet dia chi hoc sinh.");
+		System.out.println("5.Sua chi tiet can cuoc cong dan cua hoc sinh.");
+		System.out.println("6.Sua chi tiet ma so hoc sinh.");
+		System.out.println("7.Sua chi tiet so dien thoai hoc sinh.");
+		System.out.println("8.Sua chi tiet hanh kiem hoc sinh");
+		System.out.println("9.Sua chi tiet khoa hoc cua hoc sinh");
+		System.out.println("0.Thoat chuong trinh  ");
 		System.out.println("-----------------//-----------------");
 
 	}
@@ -388,8 +377,8 @@ public class dssv<Oject> implements file{
 
 public void update() {
 	System.out.println("-----------------//-----------------");
-	System.out.println("        --Nhập vào mã số học sinh cần tìm--");
-	System.out.println("        -----------------//-----------------");
+	System.out.println("--Nhap vao ma so hoc sinh can tim:--");
+	System.out.println("-----------------//-----------------");
 	int luachon = 1;
 	while(luachon>0)
 	{
@@ -400,13 +389,13 @@ public void update() {
 			danhsachhocsinh.remove(hs);
 			hs.nhap();
 			danhsachhocsinh.add(hs);
-			System.out.println("Cập nhật thành công");
+			System.out.println("Cap nhat thanh cong!");
 
 		}
 		else {
-			System.out.println("Bạn nhập mã sinh viên không đúng");
+			System.out.println("Ma sinh vien khong hop le!");
 		}
-		System.out.println("Nhập 1 để nhập thực hiện lại hoặc nhập 0 để kết thúc ");
+		System.out.println("Nhap 1 de thuc hien lai hoac nhap 0 de ket thuc.");
 		luachon= input.nextInt();
 		
 	}
@@ -418,23 +407,23 @@ public void update() {
 }
 public void findstudent() {
 	System.out.println("-----------------//-----------------");
-	System.out.println("        --Nhập vào mã số học sinh cần tìm--");
-	System.out.println("        -----------------//-----------------");
+	System.out.println("--Nhap vao ma so hoc sinh can tim:--");
+	System.out.println("-----------------//-----------------");
 	int luachon = 1;
 	while(luachon>0) {
 	int findmaso = input.nextInt();
 	for(danhsachhocsinh hs : danhsachhocsinh) {
 		if(hs.getMa()== findmaso)
 		{
-			System.out.println("Tìm học sinh thành công");
+			System.out.println("Tim hoc sinh thanh cong!");
 			hs.xuat();
 		}
 		else {
-			System.out.println("Bạn nhập mã sinh viên không đúng");
+			System.out.println("Ma so hoc sinh khong hop le!");
 		}
 		
 	}
-	System.out.println("Nhập 1 để nhập thực hiện lại hoặc nhập 0 để kết thúc ");
+	System.out.println("Nhap 1 de thuc hien lai hoac nhap 0 de ket thuc.");
 	luachon= input.nextInt();
 		}
 }
@@ -477,7 +466,7 @@ public void docFile() {
 	try {
 		String currentDirectory = System.getProperty("user.dir");
             // Tạo đường dẫn tương đối của file
-            String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dshocsinh_out.txt";
+        String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dshocsinh_out.txt";
 	fis = new FileInputStream(filePath);
 	reader = new InputStreamReader(fis, StandardCharsets.UTF_8);
 	

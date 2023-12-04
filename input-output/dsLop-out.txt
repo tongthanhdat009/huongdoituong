@@ -1,7 +1,7 @@
-DANH SACH CAU LAC BO: 
+DANH SACH LOP: 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Dinh dang: STT		Ma CLB, Ten CLB, Cong viec
-1, CLBtoanhoc, Cau lac bo toan hoc, Nghien cuu de tai toan hoc
-2, CLBkhoahoc, Cau lac bo khoa hoc, Nghien cuu de tai khoa hoc tai truong
-3, CLBamnhac, Cau lac bo am nhac, Dien van nghe o truong
+MaLop	SiSo	MaGVCN	MaPhong	SoBan	SoGhe
+12A		44		24		1		0		10
+12B		44		24		2		0		10
+12C		33		23		3		0		1
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
