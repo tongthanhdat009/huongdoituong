@@ -1,22 +1,20 @@
 import java.util.*;
 public class giaovien extends nguoi{
     public String sdt;
-    private static int maGV=0;
+    private int maGV;
     private static int soLuongGV=0;
     Scanner in = new Scanner(System.in);
     public giaovien(){
         super();
         this.sdt="";
         //cập nhật mã giáo viên + số lượng giáo viên theo static
-        maGV++;
-        soLuongGV=maGV;
+        maGV = ++soLuongGV;
     }
     public giaovien(String hoten, String gioitinh, int ngaysinh, int thangsinh, int namsinh, String diachi, String socccd,String sdt){
         super(hoten,gioitinh,ngaysinh,thangsinh,namsinh,diachi,socccd);
         setSdt(sdt);
         //cập nhật mã giáo viên + số lượng giáo viên theo static
-        maGV++;
-        soLuongGV=maGV;
+        maGV = ++soLuongGV;
     }
     public void setSdt(String sdt){
         if(sdt.matches("(84|0[35789])[0-9]{8}$")){
@@ -72,10 +70,17 @@ public class giaovien extends nguoi{
     @Override
     public void xuat() {
         System.out.println("Thong tin giao vien da nhap: ");
+         System.out.printf("Ma giao vien: %s\n", getMagv());
         System.out.printf("Thong tin da nhap:\n\tHo va ten: %s\n\tGioi tinh: %s\n\tNgay-thang-nam sinh: %d-%d-%d\n\tDia chi: %s\n\tSo cccd: %s\n", getHoten(), getGioitinh(), getNgaysinh(), getThangsinh(), getNamsinh(), getDiachi(), getCCCD());    
         System.out.printf("So dien thoai giao vien: %s\n", getSdt());
         System.out.printf("Ma giao vien: %d\n",getMagv());
 
+    }
+    public String toString()
+    {
+        {
+            return maGV+"\t"+sdt+"\t"+hoten+"\t"+gioitinh+"\t"+ngaysinh+"/"+thangsinh+"/"+namsinh+"\t"+diachi+"\t"+socccd; 
+        }
     }
     public static void main(String args[]){
         giaovien[] a=new giaovien[2];          
