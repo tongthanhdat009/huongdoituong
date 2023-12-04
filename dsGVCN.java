@@ -74,20 +74,17 @@ public class dsGVCN implements file
             String currentDirectory = System.getProperty("user.dir");
             // Tạo đường dẫn tương đối của file
             String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dsgiaovien-in.txt";
-            System.out.println(filePath);
             BufferedReader reader = new BufferedReader(new FileReader(filePath));
             String line = reader.readLine();
             while(line != null){
                 String[] arr = line.split(",");
                 giaovien filegiaovien  = new giaovien();
-                for(int i=0;i<arr.length;i++){
-                    if(i==0) filegiaovien.setHoten(arr[i]);
-                    if(i==1) filegiaovien.setGioitinh(arr[i]);
-                    if(i==2) filegiaovien.setSdt(arr[i]);
-                    if(i==3) filegiaovien.setCCCD(arr[i]);
-                    if(i==4) filegiaovien.setNgaythangnamsinh(Integer.parseInt(arr[i]),Integer.parseInt(arr[++i]),Integer.parseInt(arr[++i]));
-                    if(i==7) filegiaovien.setDiachi(arr[i]);
-                }
+                filegiaovien.setHoten(arr[0]);
+                filegiaovien.setGioitinh(arr[1]);
+                filegiaovien.setSdt(arr[2]);
+                filegiaovien.setCCCD(arr[3]);
+                filegiaovien.setNgaythangnamsinh(Integer.parseInt(arr[4]),Integer.parseInt(arr[5]),Integer.parseInt(arr[6]));
+                filegiaovien.setDiachi(arr[7]);
                 this.dsGV.add(filegiaovien);
                 line = reader.readLine();
             }
@@ -108,7 +105,7 @@ public class dsGVCN implements file
             FileWriter fw = new FileWriter(filePath);
             fw.write("DANH SACH GIAO VIEN CHU NHIEM: \n");
             fw.write("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n");
-            fw.write("MaGV\tSDT\tHoTen\tGioiTinh\tNgayThangNamSinh\tDiaChi\tCCCD\n");
+            fw.write("MaGV\tSDT\t\t\tHoTen\t\t\tGioiTinh\tNgayThangNamSinh\tDiaChi\tCCCD\n");
             for (giaovien giaovien:dsGV) {
                 fw.write(giaovien.toString() + "\n");
             }
