@@ -153,6 +153,8 @@ public class main {
             System.out.println("1. Quan ly cau lac bo");
             System.out.println("2. Quan ly cau lop");
             System.out.println("3. Quan ly hoc sinh");
+            System.out.println("4. Quan ly giao vien");
+            System.out.println("5. Quan ly diem");
             System.out.println("0.Dung chuong trinh");
             System.out.println("Nhap lua chon: ");
             luachon = in.nextInt();
