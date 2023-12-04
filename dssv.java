@@ -417,12 +417,9 @@ public void findstudent() {
 		{
 			System.out.println("Tim hoc sinh thanh cong!");
 			hs.xuat();
-		}
-		else {
-			System.out.println("Ma so hoc sinh khong hop le!");
-		}
-		
+		}	
 	}
+
 	System.out.println("Nhap 1 de thuc hien lai hoac nhap 0 de ket thuc.");
 	luachon= input.nextInt();
 		}
@@ -466,7 +463,7 @@ public void docFile() {
 	try {
 		String currentDirectory = System.getProperty("user.dir");
             // Tạo đường dẫn tương đối của file
-        String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dshocsinh_out.txt";
+        String filePath = currentDirectory + File.separator + "input-output" + File.separator + "dshocsinh_in.txt";
 	fis = new FileInputStream(filePath);
 	reader = new InputStreamReader(fis, StandardCharsets.UTF_8);
 	
@@ -516,7 +513,7 @@ public void docFile() {
 			}
 		}
 	}
-	
+	xuatdanhsachhocsinh();
 	System.out.println("Successfull!!");
                     
   

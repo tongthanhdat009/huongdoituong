@@ -1,3 +1,14 @@
 
  stt : 12, Họ và tên : Họ và tên :ho ten khong hop le, Giới tính : Giới tính :nam, Ngày sinh :2, Tháng sinh :3, Năm sinh :2004, Địa chỉ :, Số căn cước công dân : Địa chỉ :tphcm, Số điện thoại : Số điện thoại :123, Hạnh kiểm : Hạnh kiểm :tot, Khóa học : Khóa học :2019
  stt : 12, Họ và tên :ho ten khong hop le, Giới tính :Nam, Ngày sinh :14, Tháng sinh :5, Năm sinh :2004, Địa chỉ :tphcm, Số căn cước công dân :079204003182, Số điện thoại :0395632027, Hạnh kiểm :100, Khóa học :90
+ stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :so can cuoc cong dan khong hop le, So dien thoai :123456, Hanh kiem :t?t, Khoa hoc :2019
+ stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :so can cuoc cong dan khong hop le, So dien thoai :123456, Hanh kiem :t?t, Khoa hoc :2019
+ stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :so can cuoc cong dan khong hop le, So dien thoai :123, Hanh kiem :tot, Khoa hoc :2019
+ stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :so can cuoc cong dan khong hop le, So dien thoai :123456, Hanh kiem :t?t, Khoa hoc :2019
+ stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :so can cuoc cong dan khong hop le, So dien thoai :123, Hanh kiem :tot, Khoa hoc :2019
+ stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :123456789123, So dien thoai :1234, Hanh kiem :tot, Khoa hoc :2019
+ stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :so can cuoc cong dan khong hop le, So dien thoai :123456, Hanh kiem :t?t, Khoa hoc :2019
+ stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :so can cuoc cong dan khong hop le, So dien thoai :123, Hanh kiem :tot, Khoa hoc :2019
+ stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :123456789123, So dien thoai :1234, Hanh kiem :tot, Khoa hoc :2019
+ stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :123456789012, So dien thoai :123, Hanh kiem :tot, Khoa hoc :2021
+ stt : 12, Ho va ten :ho ten khong hop le, Gioi tinh :nam, Ngay sinh :2, Thang sinh :3, Nam sinh :2004, Dia chi :tphcm, So can cuoc cong dan :123456789012, So dien thoai :1234, Hanh kiem :tot, Khoa hoc :2022
