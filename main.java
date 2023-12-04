@@ -133,9 +133,50 @@ public class main {
         }while(luachon!=0);
 
     }
-    public static void quanLyGiaoVien(){}
+    public static void quanLyGiaoVienCN(dsGVCN dsGVCNCN){
+        int luachon;
+        do{
+            System.out.println("--------------------------------------------------");
+            System.out.println("Lua chon tac vu xu ly danh sach hoc sinh: ");
+            System.out.println("1. Doc file");
+            System.out.println("2. Ghi file");
+            System.out.println("3. Them giao vien");
+            System.out.println("4. Xoa giao vien");
+            System.out.println("5. Sua thong tin 1 giao vien");
+            System.out.println("6. In danh sach hoc sinh theo ma so");
+            System.out.println("0. Quay lai giao dien chinh");
+            System.out.print("Moi nhap lua chon: ");
+            luachon = in.nextInt();
+            switch (luachon) {
+                case 1:
+                    dsGVCNCN.docFile();
+                    break;
+                case 2:
+                    dsGVCNCN.ghiFile();
+                    break;
+                case 3:
+                    dsGVCNCN.them();
+                    break;
+                case 4:
+                    dsGVCNCN.xoa();
+                    break;
+                case 5:
+                    dsGVCNCN.sua();
+                    break;
+                case 6:
+                    dsGVCNCN.in();
+                    break;
+                case 0:
+                    break;
+                default:
+                    System.out.println("Lua chon khong hop le! Vui long nhap lai.");
+                    break;
+            }
+        }while(luachon!=0);
+    }
     public static void quanLyDanhSachDiem(){}
     public static void main(String[] args){
+        //danh sách câu lạc bộ
         ArrayList<caulacbo> dsclb = new ArrayList<caulacbo>();
         //tính đa hình của câu lạc bộ
         caulacbo CLBtoanhoc = new CLBtoanhoc();
@@ -146,8 +187,15 @@ public class main {
         dsclb.add(CLBamnhac);
         dscaulacbo dsCLB = new dscaulacbo(dsclb);
 
+        //danh sách lớp
         dsLop dsLop = new dsLop();
+
+        // danh sách học sinh
         dssv dsHocSinh = new dssv();
+
+        // danh sách giáo viên chủ nhiệm
+        dsGVCN dsGVCNCN = new dsGVCN();
+
         int luachon;
         do{ 
             System.out.println("CHUONG TRINH QUAN LY HOC SINH");
@@ -170,6 +218,9 @@ public class main {
                     break;
                 case 3:
                     quanLyHocSinh(dsHocSinh);
+                    break;
+                case 4:
+                    quanLyGiaoVienCN(dsGVCNCN);
                 case 0:
                     System.out.println("Chuong trinh hoan thanh");
                 default:

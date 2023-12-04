@@ -79,7 +79,7 @@ public class giaovien extends nguoi{
     public String toString()
     {
         {
-            return maGV+"\t"+sdt+"\t"+hoten+"\t"+gioitinh+"\t"+ngaysinh+"/"+thangsinh+"/"+namsinh+"\t"+diachi+"\t"+socccd; 
+            return maGV+"\t\t"+sdt+"\t"+hoten+"\t"+gioitinh+"\t\t\t"+ngaysinh+"/"+thangsinh+"/"+namsinh+"\t\t\t"+diachi+"\t"+socccd; 
         }
     }
     public static void main(String args[]){
