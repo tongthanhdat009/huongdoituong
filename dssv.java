@@ -513,7 +513,7 @@ public void docFile() {
 			}
 		}
 	}
-	
+	xuatdanhsachhocsinh();
 	System.out.println("Successfull!!");
                     
   
