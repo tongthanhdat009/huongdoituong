@@ -34,6 +34,10 @@ public class DSdiem implements file{
             int namhoc = sc.nextInt();
             System.out.println("Nhap hoc ky: ");
             int hocky = sc.nextInt();
+            while (hocky != 1 && hocky != 2) {
+                System.out.println("Hoc ky khong hop le. Vui long nhap lai: ");
+                hocky = sc.nextInt();
+            }
             monhoc[] monhoc = new monhoc[5];
             // Gọi phương thức nhập điểm cho mỗi môn học
             monhoc[0] = nhapDiem("Toan", 1);
@@ -75,6 +79,10 @@ public class DSdiem implements file{
         int namhoc = sc.nextInt();
         System.out.println("Nhap hoc ky: ");
         int hocky = sc.nextInt();
+        while (hocky != 1 && hocky != 2) {
+            System.out.println("Hoc ky khong hop le. Vui long nhap lai: ");
+            hocky = sc.nextInt();
+        }
         monhoc[] monhoc = new monhoc[5];
             // Gọi phương thức nhập điểm cho mỗi môn học
             monhoc[0] = nhapDiem("Toan", 1);
