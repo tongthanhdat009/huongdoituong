@@ -115,20 +115,4 @@ public class dsGVCN implements file
             System.out.println("Khong ghi duoc file");
         }
     }
-    public static void main(String args[])
-    {   
-        dsGVCN dsGV = new dsGVCN();
-        Scanner in = new Scanner(System.in);
-        int i;
-        do
-        {   
-            i = in.nextInt();
-            if(i==1) dsGV.docFile();
-            if(i==2) dsGV.ghiFile();
-            if(i==3) dsGV.them();
-            if(i==4) dsGV.xoa();
-            if(i==5) dsGV.sua();
-            if(i==6) dsGV.in();
-        }while(i!=0);
-    }
 }

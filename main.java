@@ -238,8 +238,7 @@ public class main {
         dssv dsHocSinh = new dssv();
 
         // danh sách giáo viên chủ nhiệm
-        dsGVCN dsGVCNCN = new dsGVCN();
-
+        dsGVCN dsGVCN = new dsGVCN();
         int luachon;
         do{ 
             System.out.println("CHUONG TRINH QUAN LY HOC SINH");
@@ -264,7 +263,10 @@ public class main {
                     quanLyHocSinh(dsHocSinh);
                     break;
                 case 4:
-                    quanLyGiaoVienCN(dsGVCNCN);
+                    quanLyGiaoVienCN(dsGVCN);
+                    break;
+                case 6:
+                    dsdaydu ds = new dsdaydu(dsGVCN,dsLop,dsHocSinh);
                 case 0:
                     System.out.println("Chuong trinh hoan thanh");
                 default:

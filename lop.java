@@ -1,6 +1,4 @@
-import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.*;
 public class lop{
     Scanner sc=new Scanner(System.in);
     public String maLop;
