@@ -109,21 +109,11 @@ public class DSdiem implements file{
                 System.out.println("Nhap hoc ky: ");
                 int hocky = sc.nextInt();
                 dsdiem.get(i).setHocky(hocky);
-                System.out.println("Nhap diem mon toan: ");
-                float diemtoan = sc.nextFloat();
-                dsdiem.get(i).getMonhoc()[0].setDiem(diemtoan);
-                System.out.println("Nhap diem mon anh: ");
-                float diemanh = sc.nextFloat();
-                dsdiem.get(i).getMonhoc()[1].setDiem(diemanh);
-                System.out.println("Nhap diem mon van: ");
-                float diemvan = sc.nextFloat();
-                dsdiem.get(i).getMonhoc()[2].setDiem(diemvan);
-                System.out.println("Nhap diem mon hoa: ");
-                float diemhoa = sc.nextFloat();
-                dsdiem.get(i).getMonhoc()[3].setDiem(diemhoa);
-                System.out.println("Nhap diem mon ly: ");
-                float diemly = sc.nextFloat();
-                dsdiem.get(i).getMonhoc()[4].setDiem(diemly);
+                dsdiem.get(i).getMonhoc()[0] = nhapDiem("Toan", 1);
+                dsdiem.get(i).getMonhoc()[1] = nhapDiem("Anh", 2);
+                dsdiem.get(i).getMonhoc()[2] = nhapDiem("Văn", 3);
+                dsdiem.get(i).getMonhoc()[3] = nhapDiem("Hoa", 4);
+                dsdiem.get(i).getMonhoc()[4] = nhapDiem("Ly", 5);
                 dsdiem.get(i).setAvgDiem(dsdiem.get(i).tinhDiemTB());
                 dsdiem.get(i).setXeploai(dsdiem.get(i).setXeploai());
                 System.out.println("Da sua thong tin cho hoc sinh co ma " + maHS);
@@ -268,6 +258,7 @@ public class DSdiem implements file{
         DSdiem a = new DSdiem();
         a.nhapDS();
         a.themDiem();
+        a.suaDiem();
         a.xuatDS();
     }
 }
