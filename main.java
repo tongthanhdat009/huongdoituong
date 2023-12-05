@@ -12,7 +12,8 @@ public class main {
                         System.out.println("3. Them cau lac bo");
                         System.out.println("4. Xoa cau lac bo");
                         System.out.println("5. Sua thong tin cau lac bo");
-                        System.out.println("6. Quay lai giao dien chinh");
+                        System.out.println("6. In ra man hinh cau lac bo");
+                        System.out.println("0. Quay lai giao dien chinh");
                         System.out.print("Moi nhap lua chon: ");
                         luachon1 = in.nextInt();
                         switch (luachon1) {
@@ -32,12 +33,14 @@ public class main {
                                 dsCLB.suaCLB();
                                 break;
                             case 6:
+                                dsCLB.xuat();
+                            case 0:
                                 break;
                             default:
                                 System.out.println("Lua chon khong hop le vui long chon lai");
                                 break;
                         }
-                    }while(luachon1>6);
+                    }while(luachon1!=0);
     }
 
     //Quản lý danh sách lớp
@@ -73,6 +76,8 @@ public class main {
                     break;
                 case 6:
                     dsLop.in();
+                    break;
+                case 0:
                     break;
                 default:
                     System.out.println("Lua chon khong hop le vui long chon lai");
@@ -211,6 +216,8 @@ public class main {
                     break;
                 case 7:
                     dsdiem.themDiem();
+                    break;
+                case 0:
                     break;
                 default:
                     System.out.println("Lua chon khong hop le vui long chon lai");

@@ -125,7 +125,7 @@ public String getFileline() {
 	return " stt : "+getMa()+","+" Ho va ten :"+ getHoten()+ ","+" Gioi tinh :"+ getGioitinh() + ","+" Ngay sinh :" + getNgaysinh() +","+" Thang sinh :"+ getThangsinh()+","+" Nam sinh :"+ getNamsinh()+ ","+" Dia chi :"+ getDiachi()+","+" So can cuoc cong dan :"+ getCCCD()+","+" So dien thoai :"+ getSdt()+","+" Hanh kiem :"+ getHanhkiem()+","+" Khoa hoc :"+ getKhoahoc()+ "\n";
 }
 public String toString2() {
-	return "Ma HS: "+getMa()+"\t, Ho va ten: "+ getHoten()+"\t, Khoa hoc: "+ getKhoahoc()+"\t, Gioi tinh: "+ getGioitinh() +"\t, Ngay thang nam sinh: "+ getNgaysinh() +"/"+ getThangsinh()+"/"+getNamsinh()+"\t, Dia chi: "+ getDiachi()+"\t, So can cuoc cong dan: "+ getCCCD()+"\t, So dien thoai: "+ getSdt()+"\t, Hanh kiem: "+ getHanhkiem();
+	return "Ma HS: "+getMa()+",\t Ho va ten: "+ getHoten()+",\t Khoa hoc: "+ getKhoahoc()+",\t Gioi tinh: "+ getGioitinh() +",\t Ngay thang nam sinh: "+ getNgaysinh() +"/"+ getThangsinh()+"/"+getNamsinh()+",\t Dia chi: "+ getDiachi()+",\t So can cuoc cong dan: "+ getCCCD()+",\t So dien thoai: "+ getSdt()+",\t Hanh kiem: "+ getHanhkiem();
 }
 public void parse(String line) {
 	String[] param = line.split(",");
