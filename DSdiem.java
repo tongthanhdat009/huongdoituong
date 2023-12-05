@@ -247,7 +247,7 @@ public class DSdiem implements file{
         System.out.println("Nhap diem mon " + tenmon + ": ");
         float diem = sc.nextFloat();
         // Kiểm tra điểm có hợp lệ không
-        while (diem < 1 || diem > 10) {
+        while (diem < 0 || diem > 10) {
             System.out.println("Diem mon " + tenmon + " khong nam trong khoang tu 0 den 10. Vui long nhap lai: ");
             diem = sc.nextFloat();
         }
