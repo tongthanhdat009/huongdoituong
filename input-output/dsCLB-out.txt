@@ -4,4 +4,6 @@ Dinh dang: STT		Ma CLB, Ten CLB, Cong viec
 1, CLBtoanhoc, Cau lac bo toan hoc, Nghien cuu de tai toan hoc
 2, CLBkhoahoc, Cau lac bo khoa hoc, Nghien cuu de tai khoa hoc tai truong
 3, CLBamnhac, Cau lac bo am nhac, Dien van nghe o truong
+4, CLBvanhoc, Cau lac bo van hoc, Lam van cap truong
+5, CLBga, Cau lac bo ga, lam con a
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -4,6 +4,7 @@ public class giaovien extends nguoi{
     private int maGV;
     private static int soLuongGV=0;
     Scanner in = new Scanner(System.in);
+    private static String truong = "THPT Sai Gon";
     public giaovien(){
         super();
         this.sdt="";
@@ -15,6 +16,9 @@ public class giaovien extends nguoi{
         setSdt(sdt);
         //cập nhật mã giáo viên + số lượng giáo viên theo static
         maGV = ++soLuongGV;
+    }
+    public static String getTruong(){
+        return truong;
     }
     public void setSdt(String sdt){
         if(sdt.matches("(84|0[35789])[0-9]{8}$")){

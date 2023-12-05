@@ -8,7 +8,7 @@ public class danhsachhocsinh extends nguoi {
 	public String khoahoc;
 	public String sdt;
 	private String hanhkiem;
-	
+    private static String truong = "THPT Sai Gon";
 	public danhsachhocsinh() {
 		khoahoc = "";
 		sdt = "";
@@ -23,6 +23,9 @@ public class danhsachhocsinh extends nguoi {
 		this.sdt = sdt;
 		this.hanhkiem=hanhkiem;
 	}
+	public static String getTruong(){
+        return truong;
+    }
 	public String getKhoahoc() {
 		return khoahoc;
 	}
